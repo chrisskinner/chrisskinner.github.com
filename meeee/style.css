@@ -49,8 +49,8 @@ table {
 
 /* Add Styles Here */
 body { font-family:Arial; font-size:18px; }
-section#content { margin:4 auto; width:960px; padding:50px 0px; }
+section#content { margin:14 auto; width:960px; padding:10px 0px; }
 
 h1 { font-size:120px; font-weight:bold; color:black; text-align:left; }
 h2 { font-size:14px; font-weight:medium; color:black; text-align:left; }
-p { padding-bottom:10px; }
+p { padding-bottom:120px; }
