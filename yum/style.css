@@ -52,10 +52,54 @@ table {
 
 
 /* END RESET */
+body {
+	line-height: 1;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+ul {
+	font-family: helvetica;
+	font-style: bold;
+	padding: 10px;
+	font-size: 100%;
+	line-height: 155%;
+	float:bottom;
+	clear: left;
+}	
 h2 {
 	color:red; 
 	font-size:200%;
 	font-family:helvetica;
+	padding: 20px;
+	width: 350px;
 	}
-
+h3 {
+	color:red; 
+	font-size:90%;
+	font-family:helvetica;
+	padding: 10px;
+	float: left;
+	clear:left;
+	}
+p {
+	float: left;
+	clear: top;
+	padding: 25px;
+	width: 260px;
+	font-size: 120%;
+	line-height: 125%;
+	font-family:georgia;
+}
+p i {
+	float: left;
+	clear: bottom;
+	width: 600px;
+	font-size: 80%;
+	font-family:georgia;
+}
+img {
+	float: left;
+	}
 
