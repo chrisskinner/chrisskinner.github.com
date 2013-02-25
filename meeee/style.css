@@ -48,9 +48,36 @@ table {
 }
 
 /* Add Styles Here */
-body { font-family:Arial; font-size:14px; }
-section#content { margin:0 auto; width:260px; padding:50px 200px; }
+body { 
+	font-family:Arial; 
+	font-size:14px; 
+}
+section#content { 
+	margin: auto; 
+	width:960px; 
+	padding:50px; 
+}
 
-h1 { font-size:90px; font-weight:bold; color:red; text-align:left; }
-h2 { font-size:14px; font-weight:bold; color:red; text-align:left; }
-p { padding-bottom:10px; }
+h1 { 
+	font-size:90px; 
+	font-weight:bold; 
+	color:red; 
+	text-align:left;
+	float:left; 
+}
+h2 { 
+	font-size:14px; 
+	font-weight:bold; 
+	color:red; 
+	text-align:left; 
+	float:left; 
+}
+p { 
+	padding:10px; 
+	float:left;
+	clear:inherit; 
+}
+img {
+	float:right;
+	clear:top;
+}

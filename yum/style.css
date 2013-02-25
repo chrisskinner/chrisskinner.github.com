@@ -101,5 +101,31 @@ p i {
 }
 img {
 	float: left;
-	}
-
+a:link {
+	color: red;
+	width: 200 px;
+	padding: 20 px;
+	float:bottom;
+	clear: bottom;
+}	
+a:visited {
+	color: red;
+	width: 200 px;
+	padding: 20 px;
+	float:bottom;
+	clear: bottom;
+}
+a:hover {
+	color: red;
+	width: 200 px;
+	padding: 20 px;
+	float:bottom;
+	clear: bottom;
+}
+a:active {
+	color: red;
+	width: 200 px;
+	padding: 20 px;
+	float:bottom;
+	clear: bottom;
+}
