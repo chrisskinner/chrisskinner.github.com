@@ -54,3 +54,42 @@ table {
 /* END RESET */
 
 
+h1 {
+		font-family: helvetica;
+		font-style: bold;
+		color: magenta;
+		clear: left;
+		float: left;
+		font-size: 300%;
+		letter-spacing: 150%;
+		width: 200px;
+		padding: 20px;
+		}
+		
+h2 {
+		font-family: helvetica;
+		font-style: italic;
+		clear: left;
+		float: left;
+		font-size: 300%;
+		letter-spacing: 150%;
+		width: 200px;
+		padding: 40px;
+		
+		} 		
+p {
+	font-family: Helvetica;
+	font-size: 80%;
+	margin 20px;
+	padding: 30px;
+	float: left;
+	clear: right;
+	width: 300px;
+	}
+
+img {
+		float: right;
+		clear: left;
+		padding: 30px;
+		}
+		
