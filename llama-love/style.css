@@ -61,7 +61,7 @@ h1 {
 		clear: left;
 		float: left;
 		font-size: 300%;
-		letter-spacing: 150%;
+		letter-spacing: 4px;
 		width: 200px;
 		padding: 20px;
 		}
@@ -69,12 +69,17 @@ h1 {
 h2 {
 		font-family: helvetica;
 		font-style: italic;
+		color: white;
 		clear: left;
 		float: left;
-		font-size: 300%;
+		font-size: 80%;
 		letter-spacing: 150%;
 		width: 200px;
-		padding: 40px;
+		padding: 10px;
+		margin: 80px;
+		background-color: black;
+		border-style: rounded;
+		Border-radius: 10px;
 		
 		} 		
 p {
