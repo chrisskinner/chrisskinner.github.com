@@ -31,77 +31,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	font-family: arial;
-	padding: 20px;
-}
-h1 {
-	font-size: 150%;
-	color: red;	
-	width:300px;
-	padding: 5px;
-	letter-spacing: 2px;
-}	
-h1 b {
-	font-size: 191%;
-	letter-spacing: 12px;
-	font-weight: bold;
-	color: #4e3033;
-}
-div {
-	height: 400px;
-	width: 390px;
-	padding: 5px;
-	float: left;
-}
-div 2{
-	height: 200px;
-	width: 390px;
-	padding: 5px;
-	float: right;
-}
-p {
-	padding: 5px;
-	float: left;
-	font-family: Times;
-	font-size: 90%;
-	width: 300px;
-	line-height: 140%;
-}
-p i {
-	padding-left: 50px;
-	float: right;
-	font-family: arial;
-	font-size:80%
-}	
-img {
-	float: top;
-	margin: 15 px;
-	padding: 5px;	
-}	
-nav li {
-	font-family: arial;
-	text-decoration: none;
-	text-align: right;
-	margin-left: auto;
-	margin-right: auto;
-	display: inline-block;
-	padding-left: 20px;
-	padding-right: 20px;
-	float: bottom;
-}
-ol, ul {
-	display: block;
-	list-style-type: disc;
-	-webkit-margin-before: 1em;
-	-webkit-margin-after: 1em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-	-webkit-padding-start: 40px;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -137,5 +66,89 @@ table {
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
+body {
+		position: relative;
+		width: 900px;
+		}
+#dog {
+		float: left;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		width: 400px;
+}
 
+#cat {
+		float: left;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		width: 400px;
+}
 
+p {
+	float:left;
+	line-height:20px;
+	}
+figure {
+		margin: 20px;
+		padding: 70px;
+		position: relative; 
+		}
+#logo {
+		position: absolute; top: 0px; left: 28.5%;
+}
+#dogs {
+		float: left;
+		width: 40%;
+		position: absolute; left:6%; top: 180px;
+		}
+#cats {
+		float: left;
+		width: 40%;
+		position: absolute; right:6%; top: 180px;
+		}
+ul {
+		margin: auto;
+		position: absolute; top: 120px; left:13%;
+		
+		}
+li {
+		float:left;
+		padding-bottom: 10px;
+		padding-top:10px;
+		padding-right: 40px;
+		padding-left:20px;
+		border-top: 3px solid black;
+		border-bottom: 3px solid black;
+		font-size: 140%;
+		text-transform: uppercase;
+		font-weight: bold;
+		}
+#first {
+		list-style: none;
+		}
+#footer {
+		border-top: 3px solid black;
+		line-height: 30px;
+		float:left;
+		padding-right: 25px;
+		padding-left: 220px;
+		font-size: 80%;
+		}
+#sectionf {
+		position: absolute; top: 850px; right:0;
+		
+}
+a {
+		text-decoration: none;
+		color: red;
+}
+h1, h2 {
+		line-height: 30px;
+		letter-spacing: 5px;
+		font-size:30px;
+		padding-bottom: 16px;
+		font-family: helvetica, sans-serif;
+		font-weight: bold;
+}		
+
+		
