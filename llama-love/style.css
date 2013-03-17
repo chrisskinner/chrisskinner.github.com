@@ -69,6 +69,7 @@ h1 {
 		letter-spacing: 4px;
 		line-height: 150%;
 		padding-bottom: 5px;
+		text-transform:uppercase;
 		}
 		
 h2 {
@@ -76,7 +77,7 @@ h2 {
 		color: grey;
 		font-size: 60%;
 		letter-spacing: 150%;
-		padding-bottom: 50px;
+		padding-bottom: 40px;
 		margin: 2px;
 		
 		} 		
