@@ -52,80 +52,56 @@ table {
 
 
 /* END RESET */
-body {
-	line-height: 1;
-	width: 750px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
+header {
+	font-family:helvetica;
+	position:relative;
+	font-size:180%;
+	padding:3% 3% 3% 3%;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:white;
+	background-color:magenta;
+}
+
+img {
+	float:left;
+	width:100%;
+	padding-bottom:10%;
+	padding-top:5%;
+}
+#sans {
+	float:left;
+	width:30%;
+	font-family:helvetica, sans-serif;
+	padding:2%;
+	position:absolute;
+	line-height:160%;
 }
 ul {
+	float:left;
+	padding:6%;
+	width:20%;
+	position:absolute; left:29%;
+}
+li {
 	font-family: helvetica;
-	font-style: bold;
-	padding: 10px;
-	font-size: 100%;
-	line-height: 155%;
-	float:bottom;
-	clear: left;
-}	
-h2 {
-	color:red; 
-	font-size:200%;
-	font-family:helvetica;
-	padding: 20px;
-	width: 350px;
-	}
-h3 {
-	color:red; 
-	font-size:90%;
-	font-family:helvetica;
-	padding: 10px;
-	float: left;
-	clear:left;
-	}
-p {
-	float: left;
-	clear: top;
-	padding: 25px;
-	width: 260px;
-	font-size: 120%;
-	line-height: 125%;
-	font-family:georgia;
+	font-size:80%;
 }
-p i {
-	float: left;
-	clear: bottom;
-	width: 600px;
-	font-size: 80%;
-	font-family:georgia;
+#instructions {
+	width:40%;
+	line-height:160%;
+	clear:both;
+	padding-top:39%;
+	padding-left:35%;
 }
-img {
-	float: left;
-a:link {
-	color: red;
-	width: 200 px;
-	padding: 20 px;
-	float:bottom;
-	clear: bottom;
-}	
-a:visited {
-	color: red;
-	width: 200 px;
-	padding: 20 px;
-	float:bottom;
-	clear: bottom;
+a {
+	text-decoration:none;
+	color:red;
+	text-transform:uppercase;
+	padding:2px;
 }
 a:hover {
-	color: red;
-	width: 200 px;
-	padding: 20 px;
-	float:bottom;
-	clear: bottom;
-}
-a:active {
-	color: red;
-	width: 200 px;
-	padding: 20 px;
-	float:bottom;
-	clear: bottom;
+	background-color:black;
+	font-weight:bold;
+	color:white;
 }
