@@ -88,7 +88,7 @@ p {
 	float:left;
 	line-height:20px;
 	}
-figure {
+header {
 		margin: 20px;
 		padding: 70px;
 		position: relative; 
@@ -126,17 +126,22 @@ li {
 #first {
 		list-style: none;
 		}
-#footer {
+footer {
+		position:absolute;	top:860px;	
 		border-top: 3px solid black;
 		line-height: 30px;
-		float:left;
-		padding-right: 25px;
-		padding-left: 220px;
+		clear:both;
 		font-size: 80%;
-		}
-#sectionf {
-		position: absolute; top: 850px; right:0;
-		
+		margin-left:50px;
+}
+#second {
+		padding-left:470px;
+		padding-bottom:20px;
+		padding-top:10px;
+}
+footer p {
+		padding-bottom:20px;
+		padding-top:10px;
 }
 a {
 		text-decoration: none;
