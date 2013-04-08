@@ -93,8 +93,25 @@ header {
 		padding: 70px;
 		position: relative; 
 		}
-#logo {
-		position: absolute; top: 0px; left: 28.5%;
+#logo1 {
+		position: absolute; top: 25px; left: 30%;
+		font-family: 'LeagueGothicRegular';
+		font-size:100px;
+
+}
+#logo2 {
+		position: absolute; top: 25px; left: 64%;
+		font-family: 'LeagueGothicRegular';
+		font-size:100px;
+
+}
+#vs {
+		position: absolute; top: 25px; left: 50%;
+		font-family: georgia;
+		font-size:70px;
+		color:grey;
+		text-transform:italic;
+
 }
 #dogs {
 		float: left;
@@ -152,8 +169,20 @@ h1, h2 {
 		letter-spacing: 5px;
 		font-size:30px;
 		padding-bottom: 16px;
-		font-family: helvetica, sans-serif;
+		font-family: 'Lobster13Regular';
 		font-weight: bold;
 }		
+@font-face {
+	font-family: 'LeagueGothicRegular';
+    src: url('League_Gothic-webfont.eot');
+    src: url('League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('League_Gothic-webfont.woff') format('woff'),
+         url('League_Gothic-webfont.ttf') format('truetype'),
+         url('League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    
+
+}
 
 		
