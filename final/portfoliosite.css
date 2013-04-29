@@ -174,13 +174,14 @@ footer {
 }
 #relatedworks {
 	margin-top:200px;
-	width:200px;
+	width:300px;
 }
 #relatedworks h3{
 	text-align:left;
 	padding-bottom:20px;
 }
 #relatedworks img{
+	margin:5px;
 }
 #superwrap {
 	width:400px;
@@ -206,4 +207,11 @@ footer {
 	color:black;
 	text-decoration:none;
 	font-size:13px;
+}
+@media screen and (max-width:900px){
+	#homeimages article {float:none;}
+	#homeimages {width:300px; float:center;}
+	footer{padding-top:1000px;}
+	#text{position:none; float:none;}
+
 }
