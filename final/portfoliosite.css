@@ -231,6 +231,15 @@ footer {
 		color: #8b9bbf;
 	}
 	h1 {color: #8b9bbf;}
+	#pics img{
+		width:600px;
+		float:none;
+		padding-left:90px;
+	}
+	#pics #pageimages{
+		width:600px;
+	}
+
 }
 @media screen and (max-width:1200px){
 	#topnav a{
@@ -246,7 +255,7 @@ footer {
 	#pics img{
 		width:550px;
 		float:none;
-		padding-left:100px;
+		padding-left:130px;
 	}
 	#pics #pageimages{
 		width:550px;
