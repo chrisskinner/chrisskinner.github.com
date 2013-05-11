@@ -327,6 +327,9 @@ footer {
 	#text{
 		position:static;
 	}
+	#relatedworks{
+		visibility:none;
+	}
 	}
 
 
