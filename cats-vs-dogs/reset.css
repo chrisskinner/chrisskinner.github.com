@@ -139,10 +139,10 @@ nav {
 		}
 li {
 		float:left;
-		padding-bottom: 10px;
-		padding-top:10px;
-		padding-right: 40px;
-		padding-left:20px;
+		padding-bottom: 2%;
+		padding-top:2%;
+		padding-right: 6%;
+		padding-left:2%;
 		border-top: 3px solid black;
 		border-bottom: 3px solid black;
 		font-size: 140%;
@@ -176,7 +176,7 @@ a {
 h1, h2 {
 		line-height: 30px;
 		letter-spacing: 5px;
-		font-size:30px;
+		font-size:2em;
 		padding-bottom: 5%;
 		font-family: helvetica;
 		font-weight: bold;
@@ -191,12 +191,14 @@ h1, h2 {
     font-weight: normal;
     font-style: normal;
     }
-@mediascreen and (max-width:900px){
-	#dogs #cats {
+@media screen and (max-width:600px){
+	#dogs #cats #cat #dog{
 		float:none;
+		clear:none;
 		}
-	li {
-		font-size:50%;
+	li ul {
+		font-size:10%;
+		float:none;
 	}	
 
 }
