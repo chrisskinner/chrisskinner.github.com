@@ -167,10 +167,10 @@ table {
 }
 .eyes{
 	position:absolute;
-	top:95px;
-	left:70px;
-	height:7px;
-	width:7px;
+	top:93px;
+	left:68px;
+	height:10px;
+	width:10px;
 	border-radius:50%;
 	background-color:black;
 }
@@ -178,8 +178,8 @@ table {
 	content:'';
 	position:absolute;
 	left:63px;
-	height:7px;
-	width:7px;
+	height:10px;
+	width:10px;
 	border-radius:50%;
 	background-color:black;
 }
@@ -218,10 +218,19 @@ table {
 	position:absolute;
 	top:25px;
 	left:10px;
-	width:140px;
+	width:120px;
 	height:210px;
 	background-color:#888C87;
-	border-radius:20px 20px 0 0;
+	border-radius:20px 0px 0 0;
+}
+.block1:after{
+	content:'';
+	position:absolute;
+	left:120px;
+	width:20px;
+	height:130px;
+	background-color:#888C87;
+	border-radius:0 20px 20px 0;
 }
 .block2{
 	position:absolute;
@@ -266,19 +275,11 @@ table {
 	border-radius:50%;
 	background-color:#FADABD;
 }
-.hands:after{
-	content:'';
-	position:absolute;
-	left:116px;
-	width:20px;
-	height:20px;
-	border-radius:50%;
-	background-color:#FADABD;
-}
 .cloud1{
 	position:absolute;
 	left:60%;
 	top:35%;
+	-webkit-animation: cloudone 30s linear infinite normal;
 }
 .circle1{
 	background-color:white;
@@ -326,6 +327,7 @@ table {
 	position:absolute;
 	left:10%;
 	top:20%;
+	-webkit-animation: cloudone 30s linear infinite normal;
 }
 .circle4{
 	background-color:white;
@@ -369,6 +371,53 @@ table {
 	position:absolute;
 	left:60%;
 	top:20%;
+}
+
+/*animation*/
+
+@-webkit-keyframes wave {
+   0% { -webkit-transform: rotate( 0deg ); }
+   50%  { -webkit-transform: rotate(20deg); }
+   100% {  -webkit-transform: rotate(0deg)); }
+}
+@-webkit-keyframes waves {
+   0% { -webkit-transform: translate( 0 ); }
+   50%  { -webkit-transform: translate(31px, 11px);}
+   100% {  -webkit-transform: translate(0); }
+}
+@-webkit-keyframes cloudone {
+   0% { -webkit-transform: translate( 0 ); }
+   50% {  -webkit-transform: translate(300px, 0); }
+   100% { -webkit-transform: translate( 0 ); }
+}
+
+
+.w-hand{
+	position:absolute;
+	left:17px;
+	top:4px;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	background-color:#FADABD;
+}
+.w-arm{
+	position:absolute;
+	width:22px;
+	height:100px;
+	top:20px;
+	background-color:#888C87;
+	border-radius: 0 0 20px 20px;
+	-webkit-transform: rotate(15deg) ; 
+}
+.waving-arm{
+	position:absolute;
+	left:139px;
+	top:250px;
+	-webkit-animation: wave 1s ease infinite normal;
+}
+.animation{
+	-webkit-animation: waves 1s ease infinite normal;
 }
 
 

@@ -48,6 +48,34 @@ table {
 }
 
 /* Add Styles Here */
+/*animation*/
+
+@-webkit-keyframes firstwave {
+   0% { opacity:0; }
+   25%  {opacity:1; }
+   75%  {opacity:0; }
+   100% { opacity:0; }
+}
+
+@-webkit-keyframes secondwave {
+   0% { opacity:0; }
+   25%  {opacity:0; }
+   75%  {opacity:1; }
+   100% { opacity:0; }
+}
+.firstwave{
+	-webkit-animation: firstwave 1s linear 0 infinite normal;
+}
+.secondwave{
+	-webkit-animation: secondwave 1s linear 0 infinite normal;
+}
+.s-secondwave{
+	-webkit-animation: secondwave 1s linear 0 infinite normal;
+}
+.s-firstwave{
+	-webkit-animation: firstwave 1s linear 0 infinite normal;
+}
+
 .background{
 	background:-webkit-linear-gradient(#b7cfc9, #948a85);
 	position:absolute;
