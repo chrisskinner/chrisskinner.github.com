@@ -78,6 +78,11 @@ body {
     font-weight: normal;
     font-style: normal;
 	}
+	p{
+		font-family:helvetica;
+		font-size:10pt;
+
+	}
 h2{
     padding:20px 10px 20px 10px;
     text-align:center;
@@ -105,6 +110,20 @@ h3 {
 	border: solid #b91f33;
 	border-width: 0 0 2px 0;
 	width:240px;
+	line-height:2.2em;
+}
+.textblock h1{
+	margin:auto;
+	font-family: 'League Gothic';
+	text-transform:uppercase;
+	letter-spacing: .15em;
+	font-size:2em;
+	color:white;
+	text-align:center;
+	border: solid white;
+	border-width: 0 0 2px 0;
+	width:60%;
+	margin-bottom:36px;
 	line-height:2.2em;
 }
 #recentwork{
@@ -176,7 +195,7 @@ li {
 	text-align: left;
 	font-family: 'League Gothic';
 	color:black;
-	font-size:18pt;
+	font-size:13pt;
 	color:#b91f33;
 }
 #cdartist{
@@ -184,24 +203,90 @@ li {
 	font-weight:bold;
 	text-transform: uppercase;
 	letter-spacing: .05em;
-	font-size:20pt;
-	margin-top:-20px;
+	font-size:13pt;
 	color:#b91f33;
 }
-#recentwork p {
-	font-size:10pt;
-	font-family:helvetica;
-	color:#000;
-	margin-top: 16px;
-	line-height: 12pt;
+#job-block{
+	height:23%;
+}
+#job-cover{
+	float: left;
+	width:25%;
+	position:relative;
+}
+#work-wrapper {
+	position:relative;
+	margin:auto;
+	width:100%;
+	top:137px;
 }
 #albumcover{
-	float: left;
-	margin-top:20px;
-	padding: 5px;
-	margin-right:50px;
+	margin:auto;
+	width:100%;
 }
-#workentry {
-	margin-left:200px;
-	margin-top:20px;
+#job-info{
+	display:none;
+	position:absolute;
+	margin:20px;
+	z-index:200;
+}
+#job-info:hover{
+	display:visible;
+	z-index:999;
+}
+#topnav li {
+	text-decoration:none;
+	color:black;
+}
+#topnav li:hover {
+	text-decoration:none;
+	color:#b91f33;
+	border-color:#b91f33;
+}
+#topnav a:hover {
+	text-decoration:none;
+	color:#b91f33;
+	border-color:#b91f33;
+}
+#topnav a {
+	text-decoration:none;
+	color:black;
+	border-color:black;
+}
+iframe{
+	margin-left:150px;
+	margin-top:60px;
+}
+.textblock{
+	margin-top:160px;
+	margin-left:10.2%;
+	margin-right:10.7%;
+	width:30.2%;
+	float:left;
+}
+.textblock p {
+	font-size:.8em;
+	font-weight:medium;
+	padding-bottom:20px;
+	line-height:1.3em;
+	color:white;
+}
+.profilepicture{
+	float:left;
+	margin-top:180px;
+}
+#profilepicture{
+	width:83.4%;
+}
+
+.about{
+	background-color: #b91f33;
+	width:100%;
+	height:610px;
+}
+#grid{
+	opacity:.5;
+	width:100%;
+	position:fixed;
+	display:none;
 }
