@@ -223,6 +223,7 @@ li {
 #albumcover{
 	margin:auto;
 	width:100%;
+	display:block;
 }
 #job-info{
 	display:none;
