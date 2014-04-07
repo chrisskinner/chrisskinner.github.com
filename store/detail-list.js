@@ -1,4 +1,9 @@
 
+var prices = {
+    mp3: 7.99,
+    vinyl: 12.99,
+};
+
 var closeUp = {
 	
 	greatDane: {

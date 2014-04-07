@@ -22,8 +22,10 @@
   			<div class="logo">
   				<h1 id="title">nebulava</h1>
   			</div>
-  			<div id="cartbutton">
-  				<h5>cart</h5>
+  			<div class="cartbutton">
+  				<div id='cart'>
+            Cart Empty
+          </div>
   				<img id="carticon" src="cart.png" alt="carticon"/>
   			</div>
   		</nav>
@@ -128,17 +130,33 @@
     
     <div class='overlay'>
     </div>
+    <div class='carttotal'>
+        <p>item2</p>
+        <p>item3</p>
+<form action="/charge" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+    data-image="/square-image.png"
+    data-name="Demo Site"
+    data-description="2 widgets ($20.00)"
+    data-amount="2000">
+  </script>
+</form>
+
+  
+    </div>
     <div class='details'>
       <h2 id='artist'>My Product Title</h2>
       <h3 id='album'>My Product Title</h3>
       <h4 id='label'>My Product Title</h4>
       <img id='image' src='669158522811-300x300.jpg' alt='image'/>
       <div class="buy">
-        <div class="buybox">
+        <div class="buybox1">
           <img id="mp3" src="mp3.png" alt="mp3"/>
           <h6>MP3 $7.99</h6>
         </div>
-        <div class="buybox">
+        <div class="buybox2">
           <img id="vinyl" src="vinyl.png" alt="vinyl"/>
           <h6>LP 12.99</h6>
         </div>
@@ -153,6 +171,7 @@
       </div>
       <div id="soundcloud">
         </div>
+
         <div class='clear'></div>
     </div>
   </body>

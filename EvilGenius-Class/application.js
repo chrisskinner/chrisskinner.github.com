@@ -6,7 +6,7 @@ $('.details').hide();
 
 function showProduct(bot){
 
-	var robot = Robots [bot];
+	var robot = Robots[bot];
 
 	$('.overlay').show();
 	$('.details').show();
@@ -14,12 +14,43 @@ function showProduct(bot){
 	$('#detail-image').attr('src',robot.image);
 	$('#detail-description').text(robot.description);
 	$('#detail-price').text("$" + robot.price);
-	$('<iframe width="605" height="180" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + '&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>')
+	$('#add-to-cart').click(function(){
+		var quantity = parseInt($("#detail-quantity").val())
+		addItem(bot,quantity);
+		updateCart();
+	});
+};
+
+var cart = { }
+
+function addItem(bot, quantity){
+	
+	if(!cart[bot]) { cart[bot] = 0; }
+   cart[bot] += parseInt(quantity);
+
+}; 
+
+function updateCart(){
+
+var total = 0;
+var items = 0;
+
+	for (var bot in cart){
+		var robot = Robots[bot]; 
+		var quantity = cart[bot];
+		var price = robot.price;
+		items += quantity;
+		total += price * quantity;
+	}
+
+	$('#cart').text(items + "$" + total.toFixed(2));
+
 };
 
 function hideProduct(){
 	$('.overlay').hide();
 	$('.details').hide();
+	$('#add-to-cart').off('click');
 };
 
 // When the page loads, add in our event handlers
@@ -33,3 +64,6 @@ $(function() {
 		hideProduct();
 	});
 });
+
+
+

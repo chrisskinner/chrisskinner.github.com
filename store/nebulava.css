@@ -303,8 +303,29 @@ iframe{
 	float:left;
 }
 
-.buybox{
+.buybox1 .buybox2{
 	float:left;
 	width:200px;
 	margin:5px;
+	cursor:pointer;
+}
+.carttotal {
+  position:fixed;
+  left:0px;
+  right:0px;
+  top:0px;
+  bottom:0px;
+  margin:auto;
+  width:720px;
+  height:600px;
+  background-color:white;
+  padding:20px 50px;
+}
+.carttotal p {
+	margin:30px;
+	color:#ee2653;
+	font-size: 20px;
+}
+form {
+	margin-top:200px;
 }
