@@ -27,12 +27,12 @@ function showProduct(info){
 	$('#soundcloud').empty().append(
 			$('<iframe width="465" height="180" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/'+detail.cloud+'&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>')
 			);
-	$('.buybox1').click(function(){
+	$('.buybox1button').click(function(){
 		var quantity = 1;
 		addItem("mp3", quantity);
 		updateCart();
 	})
-	$('.buybox2').click(function(){
+	$('.buybox2button').click(function(){
 		var quantity = 1;
 		addItem("vinyl", quantity);
 		updateCart();
@@ -61,7 +61,7 @@ var items = 0;
 		total += price * quantity;
 	}
 
-	$('#cart').text("You have" + items + "items with total cost of $" + total.toFixed(2));
+	$('#cart').text("You have " + items + " items with total cost of $" + total.toFixed(2));
 
 };
 
@@ -80,6 +80,16 @@ $('.overlay').show();
 
 };
 
+function showItem(name, quantity, price) {
+    var item = $("<div class='item'>");
+    
+    item.append( $("<div class='name'>").text(name) );
+    item.append( $("<div class='price'>").text(quantity + " X $" + price + "=") );
+    item.append( $("<div class='subtotal''>").text("$" + (quantity * price)) );    
+    
+    $(".carttotal").append(item);
+  }
+ 
 
 //event handlers
 
