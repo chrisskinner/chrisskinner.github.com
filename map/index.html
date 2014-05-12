@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+
+.land {
+  fill: #222;
+}
+
+.boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+.tooltip {
+  position:absolute;
+  background-color:white;
+  color:black;
+  font-family:helvetica;
+  width:200px;
+  height:100px;
+}
+.dot-one {
+  background-color:black;
+  height:4px;
+  width:4px;
+  border-radius:50%;
+  float:left;
+  margin:10px;
+}
+.dot-two {
+  background-color:black;
+  height:5px;
+  width:5px;
+  border-radius:50%;
+  float:left;
+  margin:10px;
+}
+.dot-three {
+  background-color:black;
+  height:7px;
+  width:7px;
+  border-radius:50%;
+  float:left;
+  margin:10px;
+}
+.dot-four {
+  background-color:black;
+  height:9px;
+  width:9px;
+  border-radius:50%;
+  float:left;
+  margin:10px;
+}
+.dot-five {
+  background-color:black;
+  height:11px;
+  width:11px;
+  border-radius:50%;
+  float:left;
+  margin:10px;
+}
+.dot-six {
+  background-color:black;
+  height:13px;
+  width:13px;
+  border-radius:50%;
+  float:left;
+  margin:10px;
+}
+.dot-seven {
+  background-color:black;
+  height:15px;
+  width:15px;
+  border-radius:50%;
+  float:left;
+  margin:10px;
+}
+.dot-eight {
+  background-color:black;
+  height:17px;
+  width:17px;
+  border-radius:50%;
+  float:left;
+  margin:10px;
+}
+.dot-nine {
+  background-color:black;
+  height:21px;
+  width:21px;
+  border-radius:50%;
+  float:left;
+  margin:10px;
+}
+.dot-ten {
+  background-color:black;
+  height:33px;
+  width:33px;
+  border-radius:50%;
+  margin:10px;
+  float:left;
+}
+.dot-red{
+  background-color:rgba(217,34,49, 0.6);
+  height:66px;
+  width:66px;
+  border-radius:50%;
+  float:left;
+  margin:10px;
+
+}
+.dot-orange{
+  background-color:rgba(247,146,42, 0.6);
+  height:66px;
+  width:66px;
+  border-radius:50%;
+  float:left;
+  margin:10px;
+
+}
+.dot-yellow{
+  background-color:rgba(255,214,0, 0.6);
+  height:66px;
+  width:66px;
+  border-radius:50%;
+  float:left;
+  margin:10px;
+
+}
+.dot-green{
+  background-color:rgba(117,192,68,0.6);
+  height:66px;
+  width:66px;
+  border-radius:50%;
+  float:left;
+  margin:10px;
+
+}
+.colortest{
+  float:left;
+  width:200px;
+}
+.key{
+  margin-top:40px;
+  width:600px;
+  margin-left:40px;
+}
+h1{
+
+  font-family:courier;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  font-weight:bold;
+  font-size:18px;
+}
+p{
+  font-family:courier;
+  font-size:13px;
+  clear:left;
+  
+}
+.secondsection{
+  margin-left:40px;
+  width:450px;
+  clear:left;
+}
+
+</style>
+<body>
+  <div class='key'>
+  <p>this is a map displaying friendly activity on dribble across the globe</p>
+  <h1>the size of each dot shows the amount of people each profile follows</h1>
+  <div class='colortest'><div class="dot-one"></div><p>following 0-150</p></div>
+  <div class='colortest'><div class="dot-two"></div><p>following 151-350</p></div>
+  <div class='colortest'><div class="dot-three"></div><p>following 351-550</p></div>
+  <div class='colortest'><div class="dot-four"></div><p>following 551-750</p></div>
+  <div class='colortest'><div class="dot-five"></div><p>following 751-950</p></div>
+  <div class='colortest'><div class="dot-six"></div><p>following 951-1150</p></div>
+  <div class='colortest'><div class="dot-seven"></div><p>following 1151-1350</p></div>
+  <div class='colortest'><div class="dot-eight"></div><p>following 1351-1750</p></div>
+  <div class='colortest'><div class="dot-ten"></div><p>following 1750+</p></div>
+</div>
+
+<div class='secondsection'>
+  <h1>the color of each dot displays amount of likes sent</h1>
+  <div class="dot-red"><p>liked 10-1500</p></div>
+  <div class="dot-orange"><p>liked 1501-5000</p></div>
+  <div class="dot-yellow"><p>liked 5001-10000</p></div>
+  <div class="dot-green"><p>liked 10001+</p></div>
+  <div>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="worldmapjson.js"></script>
+<script>
+
+function renderGraph(ourData){
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+var div = d3.select("body").append("div")
+  .attr("class","tooltip")
+  .style("opacity", 0);
+
+var width = 960,
+    height = 960;
+
+var projection = d3.geo.stereographic()
+    .scale(245)
+    .translate([width / 2, height / 2])
+    .rotate([-20, 0])
+    .clipAngle(180 - 1e-4)
+    .clipExtent([[0, 0], [width, height]])
+    .precision(.1);
+
+  var path = d3.geo.path()
+    .projection(projection);
+
+d3.select("svg").selectAll("path")
+      .data(map.features)
+    .enter().append("path")
+      .attr("d", path);
+
+  svg.selectAll("circle")
+         .data(ourData)
+         .enter()
+         .append("circle")
+         .attr("r",function(d) {
+          return d.following_count > 1750 ? 16:
+                 d.following_count > 1550 ? 8:
+                 d.following_count > 1350 ? 7:
+                 d.following_count > 1150 ? 6:
+                 d.following_count > 950 ? 5:
+                 d.following_count > 750 ? 4:
+                 d.following_count > 550 ? 3:
+                 d.following_count > 350 ? 2:
+                 d.following_count > 150 ? 1.5:
+                 1
+          })
+         .style("fill", function(d) {
+          return d.likes_count > 10000 ? "rgba(117,192,68,0.6)":
+                 d.likes_count > 5000 ? "rgba(255,214,0, 0.6)":
+                 d.likes_count > 1500 ? "rgba(247,146,42, 0.6)":
+                 d.likes_count > 10 ? "rgba(217,34,49, 0.6)":
+                 "rgba(0,0,0,0.5)"
+          })
+         .attr("transform", function(d) {return "translate("+
+          projection([d.longitude, d.latitude])+")";
+
+          })
+          .on("mouseover", function(d) {div.transition()
+                .duration(200)
+                .style("opacity", 1)
+                div .html(d.likes_count + " likes " + "<br>" + d.following_count + " following " + "<br>" + d.country)
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY-100) + "px")
+          })
+          .on("mouseout", function(d) {div.transition()
+                .duration(500)
+                .style("opacity", 0)      
+          }); 
+
+d3.select(self.frameElement).style("height", height + "px");
+}
+</script>
+<script src='http://design-trends.herokuapp.com/players.js?limit=2500&order=likes_count&callback=renderGraph'></script>
+

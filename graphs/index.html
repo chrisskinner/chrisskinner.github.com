@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+		<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<meta charset="UTF-8">
+	<title>ddata</title>
+	<!--[if lt IE 9]>
+  	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	<![endif]-->
+</head>
+<body>
+	<script>
+		function renderGraph(ourData){
+			
+			var svg = d3.select("body").append("svg")
+									   .attr("width",960)
+									   .attr("height",800);
+			var padding = 30;
+
+			var xScale = d3.scale.linear(),
+				yScale = d3.scale.linear();
+
+			var maxLatitude = Math.floor(d3.max(ourData, function(d) { return d.latitude }));
+
+			var maxLongitude = Math.floor(d3.max(ourData, function(d) { return d.longitude }));	
+
+			xScale.range([ padding,560 - padding ])
+				  .domain([ 0, maxLatitude ])
+			yScale.range([ 400 - padding,padding ])
+				  .domain([ 0, maxLongitude ])	  	
+
+			var xAxis = d3.svg.axis()
+						  .scale(xScale)
+						  .orient("bottom");
+			
+			var yAxis = d3.svg.axis()
+						  .scale(yScale)
+						  .orient("left");
+
+			svg.append("g")
+			   .attr("transform","translate(50,500)")
+			   .call(xAxis);
+
+			svg.append("g")
+			   .attr("transform","translate(50,50)")
+			   .call(yAxis);   			  	  						   	
+
+			svg.selectAll("circle")
+			   .data(ourData)
+			   .enter()
+			   .append("circle")
+			   .attr("r",6)
+			   .attr("cx",function(d) { return xScale(d.latitude); })
+			   .attr("cy",function(d) { return yScale(d.longitude);});
+
+			 /*var divs = d3.select("body").selectAll("img");
+
+			divs.data(ourData)
+				.enter()
+				.append("img")
+				.attr("src",function(player) { return player.avatar_url; }); */
+		}
+	</script>
+	<script src='http://design-trends.herokuapp.com/players.js?limit=250&has_longitude=true&haslatitude=true&callback=renderGraph'></script>
+</body>
+</html>
+

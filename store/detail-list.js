@@ -9,7 +9,7 @@ var closeUp = {
 	greatDane: {
     	artist: "Great Dane",
     	album: "Alpha Cat",
-    	label: "(Alpha Pup Records)",
+    	lable: "(Alpha Pup Records)",
     	image: "669158525706-300x300.jpg",
     	description:  "Great Dane has done it again with Sophomore full-length \"Beta Cat\": the continuation of the trade-marked Low End Theory sound that Alpha Pup proudly endorses. From the L.A. underground bass club that began the movement we've witnessed the emergence of SoCal's super-producer collective Team Supreme, yet the creme de la creme on showcase purrs ever so smoothly like the coolest cat. Big heaters and introspective drifters meet speakers and subwoofers through the crafted production details of samples, classic electronic drum programming, and vintage keys. Great Dane on the beat never sounded as sweet as now. Worldwide release set for February 25th on Alpha Pup Records.",
     	tracks: ["1. Beta Cat", 
@@ -28,7 +28,7 @@ var closeUp = {
     theBreathingEffect: {
         artist: "The Breathing Effect",
         album: "The Breathing Effect - EP",
-        label: "(Alpha Pup Records)",
+        lable: "(Alpha Pup Records)",
         image: "669158525652-300x300.jpg",
         description: "Take a fresh breath in and exhale the virtuosic jazz fusion of The Breathing Effect. The brain-child of music students Eli Goss (producer/keys/synth) and Harry Terrell (drums/bass), we witness the mature melding of modern electronic music scenes in congruence with prominent aesthetics of soulful psychedelia from the late '60s to present day. The Soft Machine meets Flying Lotus. Worldwide release is scheduled for February 11th on the Alpha Pup label.",
         tracks: ["1. Layers of Thought", 
@@ -42,7 +42,7 @@ var closeUp = {
     jeromeLol: {
         artist: "Jerome LOL",
         album: "Deleted/Fool - EP",
-        label: "(Friends Of Friends)",
+        lable: "(Friends Of Friends)",
         image: "669158525645-300x300.jpg",
         description: "As a member of the now defunct LOL Boys, L.A. resident Jerome Potter made his mark through a series of idiosyncratic releases that toed the line between dance music and effusive pop. 2/4/2014 marks Potter's debut solo release on Friends of Friends, the four-track 'Deleted/Fool' EP. The record features two stellar guest vocalists in Angelina Lucero and Sara Z and establishes Jerome's ability as a producer and songwriter in his own right.",
         tracks: ["1. Deleted (feat. Sara Z)", 
@@ -55,7 +55,7 @@ var closeUp = {
     seihoObeyCity: {
         artist: "Seiho / Obey City",
         album: "Shochu Sounds",
-        label: "(Perfect Touch - EP)",
+        lable: "(Perfect Touch - EP)",
         image: "669158525799-300x300.jpg",
         description: "With the Seiho + Obey City Way Cool Winter Tour on the imminent horizon, our favorite funky producers give us their latest musical offerings. Obey CityÕs ÔWaitÔ opens the release with a soulful laid-back groove, and Seiho rounds out the release with perhaps his best offering to date, the dramatic and beautiful ÔKOI.' This digital release is accompanied with a T-shirt designed by Sapporo design group Patanica, and ships worldwide February 11th.Audio mastered at Cosmic Zoo in LA.",
         tracks: ["1. Wait", 
@@ -68,7 +68,7 @@ var closeUp = {
     dPi: {
         artist: "DPI",
         album: "08.DD.15",
-        label: "(Leaving Records)",
+        lable: "(Leaving Records)",
         image: "669158525775-300x300.jpg",
         description: "DPI is Alex Gray (Sun Araw, Deep Magic, DJ Purple Image, Heat Wave, Dreamcolour). 08.DD.15 is sound sculpting, hi-fi mania. Secret rooms into the full frequency spectrum. A beautiful digital blunder designed for the adventurous and untamed, LR is beyond proud of young Alex for his leveling up on this full-length ride to only God knows where.",
         tracks: ["1. DIAGONAL MOVE", 
@@ -90,7 +90,7 @@ var closeUp = {
     naps: {
         artist: "Naps",
         album: "Hydrate",
-        label: "(This Thing)",
+        lable: "(This Thing)",
         image: "669158525850-300x300.jpg",
         description: "HydrateÓ is the debut long-player from MelbourneÕs Naps. A world where a lo-fidelity aesthetic meets precise digital manipulation, Hydrate flexes between new age collage and decaying hip hop, encouraging the listener to keep up in their Nike Free Flyknits.",
         tracks: ["1. Swim Psychedelia", 
@@ -113,7 +113,7 @@ var closeUp = {
     mast: {
         artist: "Mast",
         album: "Omni",
-        label: "(Alpha Pup Records)",
+        lable: "(Alpha Pup Records)",
         image: "669158525560-300x300.jpg",
         description: "The multiverse of MAST is strikingly similar to physical life here on earth. Philadelphia raised, L.A. residing Tim Conley presents us with the everlasting unchanging everything of \"OMNI\", a debut musical sphere of bliss and structure, of chaos and destruction. MAST communicates to the core with a contemporary, electronic review of song-writing through a jazz composer's lens of unorthodox transcendence. Invoking the spirit of monumental Japanese painter Katsushika Hokusai, Conley pronounces an aesthetic theme to the surrounding emotive course of the album at-large bound by the serene and magical landscapes sometimes confusing, always intriguing.---The Los Angeles electronic forefront of Alpha Pup Records speaks to every walk of life on the \"OMNI\" vibration plane, and it is not alone that the MAST vessel sets sail the maiden voyage. Assists from soul-navigating vocal gestures of Anna Wise (Sonnymoon, Kendrick Lamar), way-out raps from Brainfeeder/Warp's Jeremiah Jae, lullaby serenades from Low Leaf, and the long time partner / tourmate RYAT (Brainfeeder) attribute to the intricate album weaving of all things. All companions considered, it is Conley's solo sense of devotion to experimental process that guides us through the perfect flux that is MAST.",
         tracks: ["1. Hokusai", 
@@ -139,7 +139,7 @@ var closeUp = {
     tomBarfod: {
         artist: "Tom Barfod",
         album: "Salton Sea",
-        label: "(Friends Of Friends)",
+        lable: "(Friends Of Friends)",
         image: "669158523788-300x300.jpg",
         description: "Tomas Barfod is fascinated with the idyllic wasteland, unveiling Salton Sea, an LP on the Friends of Friends imprint that draws from the concept of urban decay. The producer and drummer of the popular Danish group WhoMadeWho, with a history of solo and collaborative releases for Get Physical, Turbo, Gomma, and Kompakt, Barfod's latest full-length balances contrasts. At times bright with delicate pop melodies, Salton Sea boldly submerges into dark, morose rhythms, juxtaposing the graceful and desolate characteristics of the Californian lakebed the album shares its name with.",
         tracks: ["1. D.S.O.Y.",
@@ -160,7 +160,7 @@ var closeUp = {
     maneMane: {
         artist: "Mane Mane",
         album: "Mane 2 Mane",
-        label: "(Triple You Tapes)",
+        lable: "(Triple You Tapes)",
         image: "669158522651-300x300.jpg",
         description: "A mind opening experience, Mane 2 Mane takes listening ears through a psychedelic voyage. Through the musical journey Mane Mane provides grooves to make you move. Dynamic and surprising, the album easily satisfies listening ears with delicious sounds. Easily transforming the album into a pleasurable experience to be enjoyed over and over again.",
         tracks: ["1. Female Singer",
@@ -181,7 +181,7 @@ var closeUp = {
     coFee: {
         artist: "Co. fee",
         album: "Easy Listening",
-        label: "(My Hollow Drum)",
+        lable: "(My Hollow Drum)",
         image: "669158522781-300x300.jpg",
         description: "Six months in the making, Easy Listening is a staggering collection of heavy synths flawlessly layered over samples taken from Co. fee's deep crates of Afro-beat, Brazilian, Bollywood and Italian soundtracks. Impossible to pin down, Easy Listening swings from the powerful intro track \"Destroy \& Rebuild\" and the demented carnival dubstep of \"Kali\" to the mesmerizing pull of \"Asante\" and the super-dented jam \"Gypsy Skirt.\" ",
         tracks: ["1. Destroy & Rebuild",
@@ -197,7 +197,7 @@ var closeUp = {
     dibiase: {
         artist: "Dibiase",
         album: "Machines Hate Me",
-        label: "(Alpha Pup Records)",
+        lable: "(Alpha Pup Records)",
         image: "669158521852-300x300.jpg",
         description: "Machines Hate Me is an unbridled statement for the future of L.A. sound. Scatterbrained beats, fuzzed-out synths and unforgiving bass, the album trumps the already steep level of anticipation for this release. The album serves as a bold statement for the personal and musical journey that Dibiase has made, a journey that judging by the creative prowess displayed on Machines Hate Me, has only just begun.",
         tracks: ["1. Eternia",
@@ -221,7 +221,7 @@ var closeUp = {
     ryanYork: {
         artist: "Ryan York",
         album: "Zipperlegs - EP",
-        label: "(Leaving Records)",
+        lable: "(Leaving Records)",
         image: "669158522811-300x300.jpg",
         description: "Zipperlegs is Ryan York's third release following his eponymous debut album on the Non Projects label under the \"Asura\" moniker. Where \"Asura\" found York investigating the boundary line between the City of Angels' beat jungle and the artist's own ties to modern classical and jazz, Zipperlegs represents a shift toward a deeper form of beat-one that extends past the confines of hip-hop and electronic production into a more universal world of human sound. The eight pieces presented reflect York's formal training in Ethnomusicology and Anthropology (both constituting parts of his studies at UCLA), reaching for a synthesis of York's experiences with various representations of earth-bound creativity.",
         tracks: ["1. Zipperlegs",

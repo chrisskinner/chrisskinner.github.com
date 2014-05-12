@@ -1,4 +1,4 @@
-
+.
 $(function(){
 $('.overlay').hide();
 $('.details').hide();
@@ -11,9 +11,9 @@ function showProduct(info){
 
 	$('.overlay').show();
 	$('.details').show();
-	$('#artist').text(detail.artist);
+	;
 	$('#album').text(detail.album);
-	$('#label').text(detail.album);
+	$('#label').text(detail.laba.;le);
 	$('#image').attr('src',detail.image);
 	$('#description').text(detail.description);
 	
