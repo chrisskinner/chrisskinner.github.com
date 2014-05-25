@@ -66,8 +66,8 @@ body {
 .footer1{
 	position:absolute;
 	top:990px;
-	width:100%;
-	height:80px;
+	width:80%;
+	height:180px;
 	margin:0 auto;
 	background-color:white;
 }
@@ -79,8 +79,10 @@ body {
 footer p {
 	color:black;
 	text-align: center;
+	margin-top:20px;
 	padding:20px;
-	width:100%;
+	width:120%;
+	line-height: 2em;
 	margin:0 auto;
 }
 
@@ -90,16 +92,43 @@ li{
 	list-style:none;
 	font-family: "soleil", sans-serif;
 }
+li a {
+	color:black;
+}
+li a:hover {
+	color:grey;
+}
 nav {
 	position:fixed;
 }
+ h3{
+ 	padding-top:120px;
+ 	color:black;
+	width:630px;
+	padding-left:162px;
+	padding-bottom:40px;
+	font-size:45px;
+	line-height:2em;
+	font-family: "soleil", sans-serif;
+	font-weight:bold;
+ }
+ h4{
+ 	color:black;
+	width:630px;
+	padding-left:162px;
+	padding-bottom:80px;
+	font-size:24px;
+	line-height:2em;
+	font-family: "soleil", sans-serif;
+
+ }
 h2{
 	color:white;
 	line-height:1.2em;
 	font-size:34px;
-	margin-bottom:26px;
-	padding-left:50%;
-	padding-top:50%;
+	margin-bottom:27px;
+	padding-left:55px;
+	padding-top:55px;
 	font-family: "soleil", sans-serif;
 	font-weight:bold;
 	text-transform:uppercase;
@@ -108,13 +137,13 @@ h2{
 h1 {
 	color:white;
 	font-family: "soleil", sans-serif;
-	padding-left:50%;
-	top:34px;
+	padding-left:55px;
 	font-size:.6em;
 	text-transform:uppercase;
 	letter-spacing:.2em;
 	font-weight:bold;
 	width:100%;
+	line-height: 1.8em;
 }
 p {
 	color:white;
@@ -122,12 +151,13 @@ p {
 	width:960px;
 	padding-left:2%;
 	font-size:.8em;
-	letter-spacing: .05em;
+	letter-spacing: .01em;
 	font-family: "soleil", sans-serif;
 	float:left;
 }
 a {
 	text-decoration: none;
+	color:black;
 }
 .grid {
 	position:fixed;
@@ -150,7 +180,7 @@ a {
 .emblem {
 	float:left;
 	position:fixed;
-	left:5%;
+	left:7%;
 
 }
 .homebutton {
@@ -162,18 +192,18 @@ a {
 	position:fixed;
 	left:72%;
 	top:10px;
-	width:500px;
+	width:300px;
 }
 .entry {
 	background-color:white;
-	width:33%;
+	width:33.3%;
 	height:330px;
 	margin-bottom:1px;
 	float:left;
 }
 .blank {
 	background-color:white;
-	width:33%;
+	width:33.3%;
 	height:130px;
 	margin-bottom:1px;
 	float:left;
@@ -184,6 +214,8 @@ a {
 	top:78px;
 }
 .info {
+	-webkit-transition:opacity .2s; /* For Safari 3.1 to 6.0 */
+	transition:opacity .2s;
 	position:relative;
 	opacity:0;
 }
@@ -198,18 +230,29 @@ a {
 }
 .coverphoto {
 	position:absolute;
-	width:33%;
+	width:33.3%;
 }
 .media {
 	margin:0 auto;
 	width:962px;
 }
+
+.media p{
+	color:black;
+	width:630px;
+	padding-left:162px;
+	padding-bottom:80px;
+	font-size:16px;
+	line-height:2em;
+}
+
 .work {
 	padding-top:80px;
 }
 .sample {
 	margin-bottom:40px;
 }
+
 
 
 
@@ -229,7 +272,7 @@ a {
 	position:absolute;
 	width:100%;
 	height:331px;
-	background-color:#00B297;
+	background-color:#D92231;
 }
 #box4{
 	position:absolute;

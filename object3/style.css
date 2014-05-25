@@ -134,43 +134,43 @@ table {
 }
 .frame1{
 	position:absolute;
-	top:22px;
+	top:24px;
 	width:30px;
-	height:7px;
+	height:5px;
 	background-color:black;
 }
 .frame2{
-	top:9px;
+	top:11px;
 	left:30px;
 	position:absolute;
 	width:35px;
 	height:24px;
-	border:solid 7px black;
+	border:solid 5px black;
 	border-radius:10%;
 }
 .frame3{
 	position:absolute;
-	left:78px;
-	top:22px;
-	width:15px;
-	height:7px;
+	left:74px;
+	top:24px;
+	width:17px;
+	height:5px;
 	background-color:black;
 }
 .frame4{
-	top:9px;
+	top:11px;
 	left:90px;
 	position:absolute;
 	width:35px;
 	height:24px;
-	border:solid 7px black;
+	border:solid 5px black;
 	border-radius:10%;
 }
 .eyes{
 	position:absolute;
 	top:93px;
-	left:68px;
-	height:10px;
-	width:10px;
+	left:67px;
+	height:9px;
+	width:9px;
 	border-radius:50%;
 	background-color:black;
 }
@@ -178,14 +178,14 @@ table {
 	content:'';
 	position:absolute;
 	left:63px;
-	height:10px;
-	width:10px;
+	height:9px;
+	width:9px;
 	border-radius:50%;
 	background-color:black;
 }
 .nose {
 	position:absolute;
-	top:138px;
+	top:135px;
 	left:105px;
 	width: 0;
 	height: 0;
