@@ -111,8 +111,9 @@ h1 {
 	color:#0033cc;
 	text-align:center;
 	text-transform:uppercase;
-	font-weight:bold;
-	font-family:helvetica, sans-serif;
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 700;
 	letter-spacing:.1em;
 	font-size:4em;
 	line-height: 2em;
