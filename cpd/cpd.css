@@ -134,7 +134,7 @@ h1{
 }
 h2{
 	margin:0 auto;
-	font-family: 'museo_sans300', sans-serif;
+	font-family: 'museo_sans700', sans-serif;
 	text-transform:uppercase;
 	list-style: none;
 	font-size: 1.4em;
@@ -171,7 +171,7 @@ h4{
 	padding-bottom:50px;
 }
 h5{
-	font-family: 'museo_sans700', sans-serif;
+	font-family: 'museo_sans300', sans-serif;
 	text-transform:uppercase;
 	list-style: none;
 	font-size: 1.3em;
@@ -268,7 +268,6 @@ h1 a{
 	padding-bottom:20px;
 }
 #about2{
-	font-family: 'museo_sans700', sans-serif;
 	color:#00B0D0;
 }
 #about3 a{
@@ -281,11 +280,9 @@ h1 a{
 	color:#35ad77;
 }
 #whatwedo2{
-	font-family: 'museo_sans700', sans-serif;
 	color:#F15B59;
 }
 #work2{
-	font-family: 'museo_sans700', sans-serif;
 	color:#35ad77;
 }
 #about a:hover{
