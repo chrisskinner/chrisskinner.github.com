@@ -78,15 +78,37 @@ body {
     font-weight: normal;
     font-style: normal;
 	}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('CooperHewitt-Medium.eot');
+    src: url('CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'),
+    	 url('CooperHewitt-Medium.woff') format('woff'),
+    	 url('CooperHewitt-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'Cooper Hewitt Bold';
+    src: url('CooperHewitt-Bold.eot');
+    src: url('CooperHewitt-Bold.eot?#iefix') format('embedded-opentype'),
+    	 url('CooperHewitt-Bold.woff') format('woff'),
+    	 url('CooperHewitt-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+
 	p{
-		font-family:helvetica;
-		font-size:10pt;
+		font-family:'Cooper Hewitt';
+		font-size:1em;
 
 	}
 h2{
     padding:20px 10px 20px 10px;
     text-align:center;
-    font-family: helvetica;
+    font-family: helvetica, sans-serif;
 	font-weight: bold;
 	line-height: 1.6em;
 	font-size:20pt;
@@ -99,12 +121,12 @@ h2{
     }
 h3 {
 	margin:auto;
-	margin-top: 10px;
+	margin-top: 40px;
 	margin-left:170px;
 	font-family: 'League Gothic';
 	text-transform:uppercase;
 	letter-spacing: .15em;
-	font-size:18pt;
+	font-size:1em;
 	color:#b91f33;
 	text-align:left;
 	border: solid #b91f33;
@@ -112,12 +134,20 @@ h3 {
 	width:240px;
 	line-height:2.2em;
 }
+h4 {
+	font-family: 'League Gothic';
+	letter-spacing: .15em;
+	font-size:1.4em;
+	color:#b91f33;
+	text-transform:uppercase;
+	padding-bottom:5px;
+	padding-top:30px;
+}
 .textblock h1{
 	margin:auto;
 	font-family: 'League Gothic';
-	text-transform:uppercase;
 	letter-spacing: .15em;
-	font-size:2em;
+	font-size:1.6em;
 	color:white;
 	text-align:center;
 	border: solid white;
@@ -132,13 +162,13 @@ h3 {
 	height: 700px;
 	background-color:white;
 	z-index:444;
-	top: 700px;
+	top: 800px;
 }
 #sometext {
 	margin:auto;
 	position:absolute;
 	z-index:333;
-	top: 350px;
+	top: 400px;
 	left:25%;
 	right:25%;
 }
@@ -158,7 +188,7 @@ h3 {
 	}
 
 #logosmall{
-	margin-left:150px;
+	margin-left:120px;
 	float:left;
 
 }	
@@ -173,14 +203,56 @@ li {
 	float:left;
 	font-family: 'League Gothic';
 	text-decoration: none;
-	padding:50px 100px 0 0;
+	padding:50px 50px 0 0;
 	margin-right:15px;
 	text-transform:uppercase;
 	letter-spacing:.15em;
-	font-size:14pt;
-	border: solid #000;
-	border-width: 0 0 2px 0;
-	line-height: 45px;
+	font-size:1.2em;
+}
+.gear {
+	list-style: none; 
+	float:left;
+}
+
+.type{
+	list-style:none;
+	position: absolute;
+	width:100px;
+	top:100px;
+}
+.type2{
+	list-style:none;
+	clear:left;
+	position:absolute;
+	width:500px;
+	left:200px;
+	top:100px;
+}
+.type2 li{
+	font-family: 'Cooper Hewitt Bold';
+	text-decoration: none;
+	letter-spacing:.12em;
+	margin-left:15px;
+	font-size:2em;
+	padding:30px 30px 0 0;
+}
+.type li {
+	font-family: 'Cooper Hewitt Bold';
+	text-decoration: none;
+	letter-spacing:.12em;
+	margin-left:15px;
+	font-size:2em;
+	padding:30px 30px 0 0;
+	color:#b91f33;
+}
+.gear li {
+	font-family: 'Cooper Hewitt Bold';
+	text-decoration: none;
+	float:none;
+	letter-spacing:.12em;
+	margin-left:15px;
+	font-size:.9em;
+	padding:10px 10px 0 0;
 }
 .news{
 	position: relative;
@@ -191,63 +263,64 @@ li {
 	width:100%;
 	height:100%;
 }
-#cdtitle{
-	text-align: left;
-	font-family: 'League Gothic';
+.cdtitle{
+	font-family: georgia;
+	font-style:italic;
 	color:black;
-	font-size:13pt;
-	color:#b91f33;
+	font-size:1em;
+	padding-bottom:.5em;
+	line-height:1.5em;
 }
-#cdartist{
+.cdartist{
 	font-family:helvetica;
+	text-transform:uppercase;
+	font-size:.7em;
+	color:black;
+	letter-spacing: .1em;
 	font-weight:bold;
-	text-transform: uppercase;
-	letter-spacing: .05em;
-	font-size:13pt;
+	line-height:2em;
+	padding-bottom:.5em;
+}
+.jobtitle {
 	color:#b91f33;
+	font-size:.7em;
+	line-height:1.5em;
+	font-family: 'Cooper Hewitt';
 }
-#job-block{
-	height:23%;
-}
-#job-cover{
+.job-cover{
 	float: left;
 	width:25%;
+	height:480px;
 	position:relative;
-}
-#work-wrapper {
-	position:relative;
-	margin:auto;
-	width:100%;
-	top:137px;
-}
-#albumcover{
-	margin:auto;
-	width:100%;
+	background-color: white;
 	display:block;
 }
-#job-info{
-	display:none;
-	position:absolute;
-	margin:20px;
-	z-index:200;
+
+.job-info{
+	margin-left:5%;
+	margin-top:10px;
+	display:block;
 }
-#job-info:hover{
-	display:visible;
-	z-index:999;
+
+#work-wrapper {
+	position:relative;
+	margin: auto 0;
+	width:95%;
+	padding-left:2.5%;
+	padding-right:2.5%;
+	top:137px;
+}
+.albumcover{
+	margin-left:5%;
+	width:90%;
 }
 #topnav li {
 	text-decoration:none;
 	color:black;
 }
-#topnav li:hover {
-	text-decoration:none;
-	color:#b91f33;
-	border-color:#b91f33;
-}
 #topnav a:hover {
 	text-decoration:none;
 	color:#b91f33;
-	border-color:#b91f33;
 }
 #topnav a {
 	text-decoration:none;
@@ -259,35 +332,41 @@ iframe{
 	margin-top:60px;
 }
 .textblock{
-	margin-top:160px;
-	margin-left:10.2%;
-	margin-right:10.7%;
-	width:30.2%;
-	float:left;
+	position:relative;
+	top:200px;
+	padding-bottom:100px;
+	width:46%;
+	margin:0 auto;
 }
 .textblock p {
-	font-size:.8em;
+	font-size:1.2em;
 	font-weight:medium;
-	padding-bottom:20px;
-	line-height:1.3em;
-	color:white;
+	padding-bottom:40px;
+	line-height:1.8em;
+	color:black;
 }
 .profilepicture{
+	position:relative;
+	margin:0 auto;
+	margin-bottom:15px;
 	float:left;
-	margin-top:180px;
+	width:300px;
 }
 #profilepicture{
-	width:83.4%;
-}
-
-.about{
-	background-color: #b91f33;
-	width:100%;
-	height:610px;
+	width:250px;
+	border:solid 1px black;
+	margin-top:9px;
 }
 #grid{
 	opacity:.5;
 	width:100%;
 	position:fixed;
 	display:none;
+}
+.studiopic {
+	margin: 0 auto;
+	padding-bottom:20px;
+}
+#studiopicture{
+	width:100%;
 }

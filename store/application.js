@@ -10,7 +10,6 @@ function showProduct(info){
 
 	$('.overlay').show();
 	$('.details').show();
-	;
 	$('#album').text(detail.album);
 	$('#label').text(detail.lable);
 	$('#image').attr('src',detail.image);

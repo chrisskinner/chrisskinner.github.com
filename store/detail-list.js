@@ -7,7 +7,7 @@ var prices = {
 var closeUp = {
 	
 	greatDane: {
-    	artist: "Great Dane",
+    	artist: "Great Da ne",
     	album: "Alpha Cat",
     	lable: "(Alpha Pup Records)",
     	image: "669158525706-300x300.jpg",
