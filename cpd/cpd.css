@@ -268,6 +268,7 @@ h1 a{
 	padding-bottom:20px;
 }
 #about2{
+	font-family: 'museo_sans700', sans-serif;
 	color:#00B0D0;
 }
 #about3 a{
@@ -280,9 +281,11 @@ h1 a{
 	color:#35ad77;
 }
 #whatwedo2{
+	font-family: 'museo_sans700', sans-serif;
 	color:#F15B59;
 }
 #work2{
+	font-family: 'museo_sans700', sans-serif;
 	color:#35ad77;
 }
 #about a:hover{
