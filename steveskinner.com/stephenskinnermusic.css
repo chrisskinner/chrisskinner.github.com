@@ -143,6 +143,16 @@ h4 {
 	padding-bottom:5px;
 	padding-top:30px;
 }
+h5{
+	font-family: 'CooperHewitt-Bold';
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	font-size: .9em;
+	color:black;
+	text-align: center;
+	padding:20px;
+
+}
 .textblock h1{
 	margin:auto;
 	font-family: 'League Gothic';
@@ -163,6 +173,38 @@ h4 {
 	background-color:white;
 	z-index:444;
 	top: 800px;
+}
+.worksamples{
+	width:900px;
+	position:relative;
+	margin:0 auto;
+}
+
+.worksamples h3 {
+	margin-left:0;
+}
+.worksamples p {
+	color:#b91f33;
+	width:250px;
+	padding-top:10px;
+	padding-bottom:10px;
+	height:30px;
+}
+.worksamples audio {
+	width:255px;
+}
+.worksamples h5{
+	float:none;
+	width:900px;
+}
+.sample{
+	width:270px;
+	padding:10px;
+	float:left;
+}
+.samples {
+	width:900px;
+	float:none;
 }
 #sometext {
 	margin:auto;
@@ -286,6 +328,8 @@ li {
 	font-size:.7em;
 	line-height:1.5em;
 	font-family: 'Cooper Hewitt';
+	text-align: left;
+	padding:0;
 }
 .job-cover{
 	float: left;

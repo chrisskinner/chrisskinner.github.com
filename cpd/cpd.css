@@ -156,6 +156,12 @@ h3{
 #whatwedomain{
 	color:#F15B59;
 }
+#faqmain{
+	color:#F99D1C;
+}
+#contactmain{
+	color:#CD86B9;
+}
 h4{
 	text-align:center;
 	text-transform:uppercase;
@@ -202,29 +208,30 @@ h1 a{
 .text{
 	margin:0 auto;
 	width:650px;
-	position:absolute;
-	top:635px;
-	right:26%;
-	left:24%;
 	padding-bottom:100px;
+	margin-top:160px;
+}
+.homenav{
+	padding-top:190px;
+	top:50px;
+	width:892px;
+	height:280px;
+	margin:0 auto;
+	z-index:333;
 }
 .text2{
 	margin:0 auto;
 	width:650px;
-	position:absolute;
-	top:650px;
-	right:26%;
-	left:24%;
+	position:relative;
 	padding-bottom:100px;
+	padding-top:60px;
 }
 .text3{
 	margin:0 auto;
 	width:650px;
-	position:absolute;
-	top:735px;
-	right:27%;
-	left:23%;
-	padding-bottom:100px;
+	position:relative;
+	padding-top:60px;
+	padding-bottom: 45px;
 }
 .text2 p {
 	padding-bottom:20px;
@@ -279,6 +286,12 @@ h1 a{
 #work3 a{
 	color:#35ad77;
 }
+#faq3 a{
+	color:#F99D1C;
+}
+#contact3 a{
+	color:#CD86B9;
+}
 #whatwedo2{
 	color:#F15B59;
 }
@@ -332,7 +345,6 @@ h1 a{
 .bulletlist2 {
 	width:360px;
 	padding-right:85px;
-	padding-top:120px;
 	margin:0 auto;
 	float:left;
 	padding-bottom:100px;
@@ -343,6 +355,60 @@ h1 a{
 .bulletentry2{
 	padding-bottom:20px;
 }
+.bulletentry3{
+	padding-bottom:20px;
+}
+
+.bulletentry3 h2{
+	font-family: 'museo_sans300', sans-serif;
+	color:#F99D1C;
+	text-align: left;
+	font-size: 1.4em;
+	float:left;
+	padding-right:1em;
+	padding-top: 3px;
+}
+.bulletentry3 i {
+	color:black;
+}
+.bulletentry4{
+	padding-bottom:60px;
+}
+
+.bulletentry4 h2{
+	font-family: 'museo_sans300', sans-serif;
+	color:#F99D1C;
+	text-align: left;
+	font-size: 1.4em;
+	float:left;
+	padding-top: 3px;
+	padding-right:1em;
+}
+.bulletentry4 i {
+	color:black;
+}
+.long-a {
+	height:170px;
+}
+.long-a2 {
+	height:350px;
+}
+.bottominfo{
+	padding-bottom: 100px;
+	font-family: 'museo_sans300', sans-serif;
+	font-size: .9em;
+	width:350px;
+}
+#tinyemail:hover{
+	color:#F99D1C;
+}
+.divider{
+	width:200px;
+	margin:0 auto;
+	border-bottom: solid 2px #F99D1C;
+	padding-top:60px;
+}
+
 
 .bulletentry img {
 	float:left;
@@ -455,7 +521,7 @@ h1 a{
 }
 .booknav{
 	top:25%;
-	left:7%;
+	left:5%;
 	position:fixed;
 }
 .tinylink{
@@ -484,8 +550,8 @@ h1 a{
 .worktitle {
 	position:fixed;
 	padding-top:120px;
-	left:20.5%;
-	width:27%;
+	left:15%;
+	width:22%;
 	background-color:white;
 	border-bottom: solid 2px black;
 	z-index:333;
@@ -505,14 +571,14 @@ h1 a{
 .workinfo{
 	position:absolute;
 	top:400px;
-	width:27%;
-	left:20.5%;
+	left:15%;
+	width:22%;
 }
 .workinfo2{
 	position:absolute;
 	top:380px;
-	width:27%;
-	left:20.5%;
+	left:15%;
+	width:22%;
 }
 .workinfo p {
 	font-size:1em;
@@ -538,20 +604,59 @@ h1 a{
 }
 .workimages{
 	position:relative;
-	width:41%;
-	left:52%;
+	width:60%;
+	left:40%;
 	top:228px;
-	padding-bottom:90px;
 }
 .workimages img{
 	width:100%;
 	padding-bottom:30px;
 }
 
+.bigemail{
+	text-align: center;
+}
+
+#bigemail {
+	font-family: 'museo_sans300', sans-serif;
+	color:#CD86B9;
+	font-size: 1.4em;
+	padding:0 0 20px 0;
+	border-bottom: solid 2px #CD86B9;
+}
+#bigemail:hover {
+	font-family: 'museo_sans300', sans-serif;
+	color:black;
+	font-size: 1.4em;
+	padding:0 0 20px 0;
+	border-bottom: solid 2px black;
+}
+.contactname{
+	font-family: 'museo_sans300', sans-serif;
+	color:black;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	text-align: center;
+	padding-top:80px;
+	padding-bottom:30px;
+}
+
+.contactp {
+	font-size: 1.3em;
+	text-align: center;
+	line-height: 1.8em;
+}
+
+#home:hover{
+	opacity:.75;
+}
+
+
 /* arrows */
 .arrow{
 	top:27%;
-	left:6%;
+	left:4%;
 	position:fixed;
 }
 
