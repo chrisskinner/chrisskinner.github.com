@@ -352,6 +352,7 @@ h1 a{
 .bulletentry{
 	padding-bottom:20px;
 }
+
 .bulletentry2{
 	padding-bottom:20px;
 }
@@ -412,11 +413,11 @@ h1 a{
 
 .bulletentry img {
 	float:left;
-	padding:8px 8px 12px 0px;
+	padding:8px 18px 12px 0px;
 }
 .bulletentry2 img {
 	float:left;
-	padding:8px 8px 82px 0px;
+	padding:8px 18px 82px 0px;
 }
 .bulletentry p {
 	font-family: 'museo_sans300', sans-serif;
