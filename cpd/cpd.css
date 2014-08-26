@@ -171,9 +171,9 @@ h4{
 	color:#00B0D0;
 }
 .listhead{
-	font-size:1.3em;
+	font-size:1.8em;
 	color:#F15B59;
-	padding-top:50px;
+	padding-top:40px;
 	padding-bottom:50px;
 }
 h5{
@@ -343,10 +343,8 @@ h1 a{
 	margin:0 auto;
 }
 .bulletlist2 {
-	width:360px;
-	padding-right:85px;
+	width:600px;
 	margin:0 auto;
-	float:left;
 	padding-bottom:100px;
 }
 .bulletentry{
@@ -571,7 +569,7 @@ h1 a{
 }
 .workinfo{
 	position:absolute;
-	top:400px;
+	top:410px;
 	left:15%;
 	width:22%;
 }
@@ -732,6 +730,14 @@ h1 a{
 	border-top: 8px solid transparent;
 	border-bottom: 8px solid transparent;
 	border-left: 10px solid #35ad77;
+}
+
+@media screen and (max-width: 1300px) {
+  .tinyinfo {
+  	padding-left:10px;
+  	background-color: rgba(255,255,255,.9);
+
+  }
 }
 
 
