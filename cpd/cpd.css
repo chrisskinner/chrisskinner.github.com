@@ -866,14 +866,14 @@ p {
 	display:block;
 	width:110px;
 	right:0px;
-	padding-top:54px;
+	padding-top:58px;
 	position:fixed;
 	z-index:777;
 }
 .block{
 	margin-top:-10;
-	width:50px;
-	height:10px;
+	width:40px;
+	height:6px;
 	background-color: black;
 	-webkit-transition: margin-top .8s ease;  
     -moz-transition: margin-top .8s ease;  
@@ -895,8 +895,8 @@ transition-property: transform;
 
 .block3{
 	margin-top: 12px;
-	width:50px;
-	height:10px;
+	width:40px;
+	height:6px;
 	background-color: black;
 	-webkit-transition: margin-top .8s ease;  
     -moz-transition: margin-top .8s ease;  
@@ -917,8 +917,8 @@ transition-property: transform;
 }
 .block4{
 	margin-top:10px;
-	width:50px;
-	height:10px;
+	width:40px;
+	height:6px;
 	background-color: black;
 	-webkit-transition: margin-top .8s ease;  
     -moz-transition: margin-top .8s ease;  
@@ -939,9 +939,9 @@ transition-property: transform;
 }
 
 .block6{
-	margin-top: -10px;
-	width:50px;
-	height:10px;
+	margin-top: -6px;
+	width:40px;
+	height:6px;
 	background-color: black;
 	-webkit-transition: margin-top .8s ease;  
     -moz-transition: margin-top .8s ease;  
