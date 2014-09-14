@@ -799,7 +799,7 @@ and (max-device-width : 480px) {
     transition: margin-top .5s ease; 
 }
 .nav2open{
-	margin-top: 0px;
+	margin-top: 10px;
 	-webkit-transition: margin-top .5s ease;  
     -moz-transition: margin-top .5s ease;  
     -o-transition: margin-top .5s ease;  
