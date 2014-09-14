@@ -866,15 +866,19 @@ p {
 	display:block;
 	width:110px;
 	right:0px;
-	padding-top:50px;
+	padding-top:54px;
 	position:fixed;
 	z-index:777;
 }
 .block{
-	margin-top:0;
+	margin-top:-10;
 	width:50px;
-	height:8px;
+	height:10px;
 	background-color: black;
+	-webkit-transition: margin-top .8s ease;  
+    -moz-transition: margin-top .8s ease;  
+    -o-transition: margin-top .8s ease;  
+    transition: margin-top .8s ease; 
 	-ms-transform: rotate(0deg); 
     -webkit-transform: rotate(0deg); 
     transform: rotate(0deg);
@@ -888,19 +892,16 @@ p {
 -o-transition-property: -o-transform;
 transition-property: transform;
 }
-.block2{
-	margin-top: 10px;
-	margin-left:0;
-	width:50px;
-	height:8px;
-	background-color: black;
 
-}
 .block3{
-	margin-top: 10px;
+	margin-top: 12px;
 	width:50px;
-	height:8px;
+	height:10px;
 	background-color: black;
+	-webkit-transition: margin-top .8s ease;  
+    -moz-transition: margin-top .8s ease;  
+    -o-transition: margin-top .8s ease;  
+    transition: margin-top .8s ease;
 	-ms-transform: rotate(0deg); 
     -webkit-transform: rotate(0deg); 
     transform: rotate(0deg);
@@ -915,10 +916,14 @@ transition-property: transform;
 transition-property: transform;
 }
 .block4{
-	margin-top:20px;
+	margin-top:10px;
 	width:50px;
-	height:8px;
+	height:10px;
 	background-color: black;
+	-webkit-transition: margin-top .8s ease;  
+    -moz-transition: margin-top .8s ease;  
+    -o-transition: margin-top .8s ease;  
+    transition: margin-top .8s ease; 
 	-ms-transform: rotate(-45deg); 
     -webkit-transform: rotate(-45deg); 
     transform: rotate(-45deg);
@@ -932,18 +937,16 @@ transition-property: transform;
 -o-transition-property: -o-transform;
 transition-property: transform;
 }
-.block5{
-	margin-top: 10px;
-	margin-left:400px;
-	width:50px;
-	height:8px;
-	background-color: black;
-}
+
 .block6{
-	margin-top: -27px;
+	margin-top: -10px;
 	width:50px;
-	height:8px;
+	height:10px;
 	background-color: black;
+	-webkit-transition: margin-top .8s ease;  
+    -moz-transition: margin-top .8s ease;  
+    -o-transition: margin-top .8s ease;  
+    transition: margin-top .8s ease; 
 	-ms-transform: rotate(45deg); 
     -webkit-transform: rotate(45deg); 
     transform: rotate(45deg);
