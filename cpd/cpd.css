@@ -942,6 +942,7 @@ p {
 .homelogo{
 	font-size: 2.5em;
 	float:left;
+	padding-top: 4px;
 }
 .menubutton{
 	display:block;
@@ -1123,7 +1124,7 @@ p {
 	color:#CD86B9;
 	font-size: 1.4em;
 	padding:0 0 20px 0;
-	border-bottom: solid 2px black;
+	border-bottom: solid 2px #CD86B9;
 }
 .bigemail{
 	font-size: 2em;
