@@ -354,9 +354,6 @@ h1 a{
 	padding-bottom:20px;
 }
 
-.bulletentry2{
-	padding-bottom:20px;
-}
 .bulletentry3{
 	padding-bottom:20px;
 }
@@ -412,13 +409,29 @@ h1 a{
 }
 
 
-.bulletentry img {
+.xbox {
 	float:left;
-	padding:8px 18px 12px 0px;
+	padding:4px 18px 12px 0px;
 }
-.bulletentry2 img {
+.xbox2{
 	float:left;
-	padding:8px 18px 42px 0px;
+	padding:4px 18px 42px 0px;
+}
+.checkbox {
+	float:left;
+	padding:4px 18px 12px 0px;
+}
+.mcheckbox{
+	display:none;
+}
+.mxbox{
+	display:none;
+}
+.mcheckbox2{
+	display:none;
+}
+.mxbox2{
+	display:none;
 }
 .bulletentry p {
 	font-family: 'museo_sans300', sans-serif;
@@ -749,6 +762,14 @@ h1 a{
 .title2{
 	display:none;
 }
+
+#marrow{
+	display:none;
+}
+.mtext{
+	display:none;
+}
+
 @media screen and (max-width: 1300px) {
   .tinyinfo {
   	padding-left:10px;
@@ -821,19 +842,35 @@ li{
 	font-size: 3em;
 	padding-bottom:50px;
 }
-#about a{
+
+
+#mabout2 {
+	padding-top: 20px;
 	color:#00B0D0;
 }
-#whatwedo a{
+#mwhatwedo2 {
+	padding-top: 20px;
 	color:#F15B59;
 }
-#work a{
+#mwork2 {
+	padding-top: 20px;
 	color:#35ad77;
 }
-#faq a{
+
+
+#mabout a{
+	color:#00B0D0;
+}
+#mwhatwedo a{
+	color:#F15B59;
+}
+#mwork a{
+	color:#35ad77;
+}
+#mfaq a{
 	color:#F99D1C;
 }
-#contact a{
+#mcontact a{
 	color:#CD86B9;
 }
 .massartlogo{
@@ -859,6 +896,13 @@ h5{
 	padding-top: 100px;
 }
 .text{
+	width:800px;
+	margin:0 auto;
+	padding-top:220px;
+	padding-bottom: 100px
+}
+.mtext{
+	display:block;
 	width:800px;
 	margin:0 auto;
 	padding-top:220px;
@@ -892,7 +936,8 @@ h4{
 	right:50%;
 }
 p {
-	font-size:2.5em;
+	font-size:2.6em;
+	line-height: 2em;
 }
 .homelogo{
 	font-size: 2.5em;
@@ -984,6 +1029,7 @@ p {
 	font-size:3.6em;
 }
 .bulletlist {
+	padding-top: 20px;
 	width:800px;
 	margin:0 auto;
 }
@@ -1026,6 +1072,55 @@ p {
 #tinyemail:hover{
 	color:#F99D1C;
 }
+
+.mxbox {
+	display:block;
+	float:left;
+	padding:13px 40px 22px 0px;
+}
+.mxbox2 {
+	display:block;
+	float:left;
+	padding:13px 40px 152px 0px;
+}
+
+.mcheckbox {
+	display:block;
+	float:left;
+	padding:11px 40px 22px 0px;
+}
+.mcheckbox2 {
+	display:block;
+	float:left;
+	padding:11px 40px 102px 0px;
+}
+.checkbox{
+	display:none;
+}
+.xbox{
+	display:none;
+}
+.xbox2{
+	display:none;
+}
+.bulletentry p {
+	font-family: 'museo_sans300', sans-serif;
+	font-size:2em;
+}
+.bulletentry2 p {
+	font-family: 'museo_sans300', sans-serif;
+	font-size:2em;
+
+}
+#marrow{
+	display:block;
+	margin:0 auto;
+	width:33px;
+	padding-top: 30px;
+}
+
+
+
 }
 
 
