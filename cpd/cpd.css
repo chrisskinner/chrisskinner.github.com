@@ -1076,18 +1076,18 @@ p {
 .mxbox {
 	display:block;
 	float:left;
-	padding:13px 40px 22px 0px;
+	padding:13px 40px 42px 0px;
 }
 .mxbox2 {
 	display:block;
 	float:left;
-	padding:13px 40px 152px 0px;
+	padding:13px 40px 200px 0px;
 }
 
 .mcheckbox {
 	display:block;
 	float:left;
-	padding:11px 40px 22px 0px;
+	padding:11px 40px 42px 0px;
 }
 .mcheckbox2 {
 	display:block;
