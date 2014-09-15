@@ -1076,23 +1076,23 @@ p {
 .mxbox {
 	display:block;
 	float:left;
-	padding:13px 60px 42px 0px;
+	padding:14px 40px 42px 0px;
 }
 .mxbox2 {
 	display:block;
 	float:left;
-	padding:13px 60px 200px 0px;
+	padding:14px 40px 200px 0px;
 }
 
 .mcheckbox {
 	display:block;
 	float:left;
-	padding:13px 60px 42px 0px;
+	padding:14px 40px 42px 0px;
 }
 .mcheckbox2 {
 	display:block;
 	float:left;
-	padding:13px 60px 102px 0px;
+	padding:14px 40px 102px 0px;
 }
 .checkbox{
 	display:none;
@@ -1118,7 +1118,23 @@ p {
 	width:33px;
 	padding-top: 30px;
 }
+#bigemail:hover {
+	font-family: 'museo_sans300', sans-serif;
+	color:#CD86B9;
+	font-size: 1.4em;
+	padding:0 0 20px 0;
+	border-bottom: solid 2px black;
+}
+.bigemail{
+	font-size: 2em;
+}
+.contactname{
+	font-size: 2em;
+}
+.contactp{
+	font-size: 2em;
 
+}
 
 
 }
