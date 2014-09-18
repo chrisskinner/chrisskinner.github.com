@@ -772,6 +772,10 @@ h1 a{
 .mworkinfo{
 	display:none;
 }
+.mmworkinfo{
+	display:none;
+}
+
 .mshowinfo{
 	display:none;
 }
@@ -1202,12 +1206,26 @@ p {
 .mworkinfo{
 	display:block;
 }
+.mmworkinfo{
+	display:block;
+}
 .mworkinfo h6{
 	text-align: left;
 	font-size: 3em;
 	margin-top: -250px;
 }
 .mworkinfo h5{
+	text-align: left;
+	font-size: 3em;
+	margin-top: -100px;
+	font-family: 'museo_sans700', sans-serif;
+}
+.mmworkinfo h6{
+	text-align: left;
+	font-size: 3em;
+	margin-top: -250px;
+}
+.mmworkinfo h5{
 	text-align: left;
 	font-size: 3em;
 	margin-top: -100px;
@@ -1247,6 +1265,14 @@ p {
 }
 .mworkinfo2 p{
 	font-size: 2em;
+}
+.mmworkinfo{	
+	display:block;
+	position:relative;
+	top:0px;
+	left:0px;
+	margin:0 auto;
+	width:800px;
 }
 .worktitle {
 	position:relative;
