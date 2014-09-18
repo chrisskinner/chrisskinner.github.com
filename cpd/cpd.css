@@ -769,6 +769,15 @@ h1 a{
 .mtext{
 	display:none;
 }
+.mworkinfo{
+	display:none;
+}
+.mshowinfo{
+	display:none;
+}
+.mhideinfo{
+	display:none;
+}
 
 @media screen and (max-width: 1300px) {
   .tinyinfo {
@@ -1134,10 +1143,168 @@ p {
 }
 .contactp{
 	font-size: 2em;
-
 }
 
+.worklink1{
+	float:none;
+	margin:0 auto;
+	padding:0 0 0 0;
+	width:900px;
 
+}
+.worklink2{
+	float:none;
+	margin:0 auto;
+	padding:0 0 0 0;
+	width:900px;
+
+}
+.worklink3{
+	float:none;
+	margin:0 auto;
+	padding:0 0 0 0;
+	width:900px;
+
+}
+.worklink4{
+	float:none;
+	margin:0 auto;
+	padding:0 0 0 0;
+	width:900px;
+
+}
+.worklink5{
+	float:none;
+	margin:0 auto;
+	padding:0 0 0 0;
+	width:900px;
+
+}
+.worklink6{
+	float:none;
+	margin:0 auto;
+	padding:0 0 0 0;
+	width:900px;
+
+}
+.workhover{
+	display:none;
+}
+.workhover:hover {
+	display:none;
+}
+.workbody{
+	padding-top:100px;
+	margin:0 auto;
+	width:800px;
+
+}
+.mworkinfo{
+	display:block;
+}
+.mworkinfo h6{
+	text-align: left;
+	font-size: 3em;
+	margin-top: -250px;
+}
+.mworkinfo h5{
+	text-align: left;
+	font-size: 3em;
+	margin-top: -100px;
+	font-family: 'museo_sans700', sans-serif;
+}
+.booknav{
+	display: none;
+}
+.arrow{
+	display:none;
+}
+.workinfo{
+	display:none;
+}
+.workinfo2{
+	display:none;
+}
+.mworkinfo{	
+	display:block;
+	position:relative;
+	top:0px;
+	left:0px;
+	margin:0 auto;
+	width:800px;
+}
+.mworkinfo p{
+	padding-top: 100px;
+	font-size: 2em;
+}
+.mworkinfo2{
+	display:block;
+	position:relative;
+	top:0px;
+	left:0px;
+	margin:0 auto;
+	width:800px;
+}
+.mworkinfo2 p{
+	font-size: 2em;
+}
+.worktitle {
+	position:relative;
+	width:800px;
+	padding-top:0;
+	margin-top: 0px;
+	margin:0 auto;
+	left:0px;
+	background-color:white;
+	border-bottom: solid 2px black;
+	z-index:333;
+}
+.worktitle h6 {
+	font-size:4.4em;
+	color:black;
+	text-align:left; 
+	line-height:1.7em;
+}
+.worktitle h3{
+	text-align: left;
+	padding-top:0;
+	padding-bottom:20px;
+	font-size:2em;
+}
+.workimages{
+	position: relative;
+	margin: 0 auto;
+	width:800px;
+	left:0px;
+	top:0;
+	padding-top: 100px;
+}
+.mshowinfo{
+	display:block;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.mshowinfo p{
+	background-color: #f0f0f0;
+	font-family: 'museo_sans700', sans-serif;
+	width:400px;
+	height:90px;
+	margin:0 auto;
+	text-align: center;
+}
+.mhideinfo{
+	display:block;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.mhideinfo p{
+	background-color: #f0f0f0;
+	font-family: 'museo_sans700', sans-serif;
+	width:400px;
+	height:90px;
+	margin:0 auto;
+	text-align: center;
+}
 }
 
 
