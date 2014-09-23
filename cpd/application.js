@@ -1,8 +1,4 @@
-$(function(){
-$(".mworkinfo").hide();
-$(".mworkinfo2").hide();
-$('.mhideinfo').hide();
-});
+
 //event handlers
 
 $(function() {
@@ -16,19 +12,6 @@ $(function() {
 
 	});
 
-	$('.mshowinfo').click(function(){
-		$(".mworkinfo").show();
-		$(".mworkinfo2").show();
-		$(".mhideinfo").show();
-		$(".mshowinfo").hide();  
-	});
-
-	$('.mhideinfo').click(function(){
-		$(".mworkinfo").hide();
-		$(".mworkinfo2").hide();
-		$(".mhideinfo").hide();
-		$(".mshowinfo").show();  
-	});
 
 	
 

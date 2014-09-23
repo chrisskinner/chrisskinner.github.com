@@ -68,26 +68,8 @@ html[xmlns] .clearfix { display: block; }
 body {
 	margin:auto;
 }
-@font-face {
-    font-family: 'museo_sans300';
-    src: url('MuseoSans_300-webfont.eot');
-    src: url('MuseoSans_300-webfont.eot?#iefix') format('embedded-opentype'),
-         url('MuseoSans_300-webfont.woff') format('woff'),
-         url('MuseoSans_300-webfont.ttf') format('truetype'),
-         url('MuseoSans_300-webfont.svg#museo_sans300') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'museo_sans700';
-    src: url('MuseoSans_700-webfont.eot');
-    src: url('MuseoSans_700-webfont.eot?#iefix') format('embedded-opentype'),
-         url('MuseoSans_700-webfont.woff') format('woff'),
-         url('MuseoSans_700-webfont.ttf') format('truetype'),
-         url('MuseoSans_700-webfont.svg#museo_sans700') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face {font-family: 'FuturaPT-Medium';src: url('webfonts/2C0DBE_0_0.eot');src: url('webfonts/2C0DBE_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2C0DBE_0_0.woff') format('woff'),url('webfonts/2C0DBE_0_0.ttf') format('truetype');}
+
 
 @font-face {
     font-family: 'Chunkfive';
@@ -114,11 +96,11 @@ ul{
 	margin-left:20px;
 }
 li {
-	font-family: 'museo_sans700', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 	text-transform:uppercase;
 	float:left;
 	list-style: none;
-	font-size: .8em;
+	font-size: 1em;
 	letter-spacing: .15em;
 	padding-top:30px;
 }
@@ -134,10 +116,10 @@ h1{
 }
 h2{
 	margin:0 auto;
-	font-family: 'museo_sans700', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 	text-transform:uppercase;
 	list-style: none;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	letter-spacing: .15em;
 	text-align: center;
 }
@@ -145,7 +127,7 @@ h3{
 	text-align:center;
 	text-transform:uppercase;
 	letter-spacing:.16em;
-	font-family: 'museo_sans700', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 	font-size:1.8em;
 	padding-top:42px;
 	padding-bottom:45px;
@@ -166,8 +148,8 @@ h4{
 	text-align:center;
 	text-transform:uppercase;
 	letter-spacing:.16em;
-	font-family: 'museo_sans700', sans-serif;
-	font-size:1em;
+	font-family: 'FuturaPT-Medium', sans-serif;
+	font-size:1.2em;
 	color:#00B0D0;
 }
 .listhead{
@@ -177,7 +159,7 @@ h4{
 	padding-bottom:50px;
 }
 h5{
-	font-family: 'museo_sans300', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 	text-transform:uppercase;
 	list-style: none;
 	font-size: 1.3em;
@@ -187,7 +169,7 @@ h5{
 	padding:46px 0 4px 0;
 }	
 h6{
-	font-family:'Chunkfive', serif;
+	font-family:'FuturaPT-Medium', serif;
 	font-size:1.7em;
 	letter-spacing: .03em;
 	color:#35ad77;
@@ -359,7 +341,7 @@ h1 a{
 }
 
 .bulletentry3 h2{
-	font-family: 'museo_sans300', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 	color:#F99D1C;
 	text-align: left;
 	font-size: 1.4em;
@@ -375,7 +357,7 @@ h1 a{
 }
 
 .bulletentry4 h2{
-	font-family: 'museo_sans300', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 	color:#F99D1C;
 	text-align: left;
 	font-size: 1.4em;
@@ -394,7 +376,7 @@ h1 a{
 }
 .bottominfo{
 	padding-bottom: 100px;
-	font-family: 'museo_sans300', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 	font-size: .9em;
 	width:350px;
 }
@@ -434,12 +416,12 @@ h1 a{
 	display:none;
 }
 .bulletentry p {
-	font-family: 'museo_sans300', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 	font-size:1.1em;
 
 }
 .bulletentry2 p {
-	font-family: 'museo_sans300', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 	font-size:1.1em;
 
 }
@@ -564,7 +546,7 @@ h1 a{
 }
 .worktitle {
 	position:fixed;
-	padding-top:120px;
+	padding-top:140px;
 	left:15%;
 	width:22%;
 	background-color:white;
@@ -575,7 +557,8 @@ h1 a{
 	font-size:1.4em;
 	color:black;
 	text-align:left; 
-	line-height:1.7em;
+	line-height:1.5em;
+	color:#35ad77;
 }
 .worktitle h3{
 	text-align: left;
@@ -633,21 +616,21 @@ h1 a{
 }
 
 #bigemail {
-	font-family: 'museo_sans300', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 	color:#CD86B9;
 	font-size: 1.4em;
 	padding:0 0 20px 0;
 	border-bottom: solid 2px #CD86B9;
 }
 #bigemail:hover {
-	font-family: 'museo_sans300', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 	color:black;
 	font-size: 1.4em;
 	padding:0 0 20px 0;
 	border-bottom: solid 2px black;
 }
 .contactname{
-	font-family: 'museo_sans300', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 	color:black;
 	font-size: 1.4em;
 	text-transform: uppercase;
@@ -853,7 +836,7 @@ li{
 	float:none;
 	text-align: center;
 	font-size: 3em;
-	padding-bottom:50px;
+	padding-bottom:40px;
 }
 
 
@@ -936,7 +919,7 @@ h5{
 
 h4{
 	padding-top: 60px;
-	font-size:2em;
+	font-size:2.2em;
 }
 #arrow{
 	display:none;
@@ -1118,11 +1101,11 @@ p {
 	display:none;
 }
 .bulletentry p {
-	font-family: 'museo_sans300', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 	font-size:2em;
 }
 .bulletentry2 p {
-	font-family: 'museo_sans300', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 	font-size:2em;
 
 }
@@ -1133,7 +1116,7 @@ p {
 	padding-top: 30px;
 }
 #bigemail:hover {
-	font-family: 'museo_sans300', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 	color:#CD86B9;
 	font-size: 1.4em;
 	padding:0 0 20px 0;
@@ -1148,47 +1131,51 @@ p {
 .contactp{
 	font-size: 2em;
 }
-
+.workbody{
+	padding-top:200px;
+	margin:0 auto;
+	width:800px;
+}
 .worklink1{
 	float:none;
 	margin:0 auto;
 	padding:0 0 0 0;
-	width:900px;
+	width:80%;
 
 }
 .worklink2{
 	float:none;
 	margin:0 auto;
 	padding:0 0 0 0;
-	width:900px;
+	width:80%;
 
 }
 .worklink3{
 	float:none;
 	margin:0 auto;
 	padding:0 0 0 0;
-	width:900px;
+	width:80%;
 
 }
 .worklink4{
 	float:none;
 	margin:0 auto;
 	padding:0 0 0 0;
-	width:900px;
+	width:80%;
 
 }
 .worklink5{
 	float:none;
 	margin:0 auto;
 	padding:0 0 0 0;
-	width:900px;
+	width:80%;
 
 }
 .worklink6{
 	float:none;
 	margin:0 auto;
 	padding:0 0 0 0;
-	width:900px;
+	width:80%;
 
 }
 .workhover{
@@ -1205,9 +1192,11 @@ p {
 }
 .mworkinfo{
 	display:block;
+	padding-bottom: 100px;
 }
 .mmworkinfo{
 	display:block;
+	padding-bottom: 100px;
 }
 .mworkinfo h6{
 	text-align: left;
@@ -1218,18 +1207,19 @@ p {
 	text-align: left;
 	font-size: 3em;
 	margin-top: -100px;
-	font-family: 'museo_sans700', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 }
 .mmworkinfo h6{
 	text-align: left;
 	font-size: 3em;
 	margin-top: -250px;
+	width:700px;
 }
 .mmworkinfo h5{
 	text-align: left;
 	font-size: 3em;
 	margin-top: -100px;
-	font-family: 'museo_sans700', sans-serif;
+	font-family: 'FuturaPT-Medium', sans-serif;
 }
 .booknav{
 	display: none;
@@ -1287,9 +1277,10 @@ p {
 }
 .worktitle h6 {
 	font-size:4.4em;
-	color:black;
+	color:#35ad77;
 	text-align:left; 
-	line-height:1.7em;
+	line-height:1.4em;
+	padding-bottom: 50px;
 }
 .worktitle h3{
 	text-align: left;
@@ -1305,32 +1296,7 @@ p {
 	top:0;
 	padding-top: 100px;
 }
-.mshowinfo{
-	display:block;
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-.mshowinfo p{
-	background-color: #f0f0f0;
-	font-family: 'museo_sans700', sans-serif;
-	width:400px;
-	height:90px;
-	margin:0 auto;
-	text-align: center;
-}
-.mhideinfo{
-	display:block;
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-.mhideinfo p{
-	background-color: #f0f0f0;
-	font-family: 'museo_sans700', sans-serif;
-	width:400px;
-	height:90px;
-	margin:0 auto;
-	text-align: center;
-}
+
 }
 
 
