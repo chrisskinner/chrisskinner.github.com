@@ -703,6 +703,19 @@ h6{
 	text-align: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .slideshow {
+  	height:550px;
+
+  }
+  h4{
+  	font-size: 30px;
+  	line-height: 45px;
+  }
+}
+
+
+
 /*mobile styles*/
 
 @media only screen 
