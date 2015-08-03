@@ -318,7 +318,10 @@ h1{
 }
 .text{
 	margin-left:80px;
-	width:900px;
+	width:840px;
+}
+.workimage{
+	height:677px;
 }
 
 }
