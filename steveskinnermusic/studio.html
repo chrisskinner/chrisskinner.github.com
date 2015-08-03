@@ -5,24 +5,46 @@
 	<!--[if lt IE 9]>
   	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   	<![endif]-->
+    <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+      <script src='dropdown.js'></script>
 	<link rel="stylesheet" href="stephenskinnermusic.css" type="text/css" media="screen" />
   </head>
   <body>
-    <div id="navwrapper">
+    <div class="navwrapper">
   	<header>
         <div id="logo">
           <a href="index.html"><img id="logosmall" src="dads-logo-standalone_72dpi.png" alt="CS"/></a>
           <h1 id="title"><a href="index.html">Stephen Skinner Music</a></h1>
         </div>
-      <nav id="topnav">
+      <nav class="topnav">
         <ul>
           <li><a href="credits.html">credits</a></li>
           <li><a href="studio.html">studio</a></li>
           <li><a href="about.html">about</a></li>
           <li><a href="contact.html">contact</a></li>
         </ul>
-      </nav> 
-  	</header>
+      </nav>
+
+      <div class='mobilenav'>
+        <div class='button'>
+          <div class='menubutton'>
+            <button>menu</button>
+          </div>
+          <div class='closebutton'>
+            <button>close</button>
+          </div>
+        </div>
+      <nav class="dropdown">
+        <ul>
+          <li><a href="credits.html">credits</a></li>
+          <li><a href="studio.html">studio</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+      </div>
+
+    </header>
     </div>
     <div class="about">
       <img id="grid" src="grid.png" alt="grid"/>
