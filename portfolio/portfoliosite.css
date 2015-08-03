@@ -197,6 +197,9 @@ h2{
 	height:677px;
 	margin-bottom: 35px;
 }
+#photocred{
+	padding-bottom: 80px;
+}
 
 
 @media screen and (max-width: 1200px) {
@@ -302,13 +305,13 @@ h1{
 	position: absolute;
 	top:80px;
 	right:330px;
-	width:550px;
+	width:600px;
 }
 .infosecondline{
 	position: absolute;
 	right:330px;
 	top:300px;
-	width:550px;
+	width:600px;
 	font-style: italic;
 }
 #logo{
