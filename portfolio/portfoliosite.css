@@ -117,6 +117,8 @@ h1{
 	margin-top:53px; 
 	width:90px;
 	margin-left: -80px;
+	padding-right:30px;
+	padding-bottom: 30px; 
 }
 h2{
 	font-family: helvetica, sans-serif;
@@ -155,7 +157,7 @@ h2{
 }
 .closebutton2{
 	display:block;
-	width:460px;
+	width:420px;
 	height:180px;
 	position:absolute;
 	right:35px;
