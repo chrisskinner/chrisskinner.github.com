@@ -60,17 +60,33 @@ html[xmlns] .clearfix { display: block; }
 
 body{
 	background-color: #f8f8f8;
-	width:100%;
 	height:100%;
-	position:absolute;
+	width:100%;
 }
 h1{
 	font-family: helvetica,sans-serif;
 	font-weight: bold;
-	font-size: 17px;
-	line-height: 21px;
+	font-size: 23px;
+	line-height: 31px;
 	margin-bottom: 25px;
 	letter-spacing: -.03em;
+}
+h2{
+	padding-top: 50px;
+	padding-left: 50px;
+	font-size: 10px;
+	font-family: helvetica, sans-serif;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+	padding-bottom: 37px;
+}
+h3{
+	font-family: georgia;
+	font-size: 10px;
+	font-style: italic;
+	letter-spacing: .5em;
+	text-transform: uppercase;
+	padding-left: 50px;
 }
 h4{
 	font-family: helvetica,sans-serif;
@@ -79,6 +95,26 @@ h4{
 	font-size: 9px;
 	line-height: 17px;
 	margin-bottom: 16px;
+}
+h5{
+	font-family: georgia;
+	font-size: 10px;
+	font-style: italic;
+	letter-spacing: .5em;
+	text-transform: uppercase;
+	padding-left: 50px;
+	padding-bottom: 35px;
+	padding-top: 15px;
+
+}
+h6{
+	font-family: georgia;
+	font-size: 10px;
+	font-style: italic;
+	letter-spacing: .5em;
+	text-transform: uppercase;
+	padding-left: 50px;
+	padding-top: 25px;
 }
 p{
 	font-family: helvetica,sans-serif;
@@ -91,15 +127,28 @@ li{
 	font-family: helvetica,sans-serif;
 	list-style: none;
 }
+b{
+	font-family: helvetica,sans-serif;
+	font-weight: bold;	
+}
 a{
 	text-decoration: none;
 	color:#0033cc;
 }
+.page{
+	color:#00eb9b;
+	float: left;
+}
 a:hover{
 	color:#00eb9b;
 }
+.activelink{
+	color:#00eb9b;
+	float:left;
+}
 .toolbar{
-	position:fixed;
+	position: fixed;
+	width:200px;
 	left:4%;
 	top:4%;
 }
@@ -110,9 +159,10 @@ a:hover{
 	letter-spacing: -.03em;
 }
 .info{
-	position:fixed;
+	position: fixed;
 	left:4%;
 	bottom:4%;
+	width:200px;
 }
 .info li{
 	font-size: 10px;
@@ -122,10 +172,47 @@ a:hover{
 }
 .graphs{
 	position: absolute;
-	left:30%;
+	left:32%;
 }
 .graphs img{
-	width:85%;
+	width:80%;
 	margin-bottom: 200px;
 	margin-top: 100px;
+}
+.mainblock{
+	border:solid 1px #000000;
+	position:absolute;
+	left:28%;
+	top:13%;
+	right:4%;
+	margin-bottom:50px;
+}
+
+.mainblock li{
+	font-family: georgia;
+	padding-bottom: 25px;
+	line-height: 36px;
+	font-size: 22px;
+}
+.mainblock ul{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 25px;
+}
+
+.mainblock p{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 25px;
+	font-size: 14px;
+	line-height: 19px;
+}
+#bottomp{
+	padding-bottom: 25px;
+}
+
+.arrow{
+	margin-top: 2px;
+	padding-left:8px;
+	width:12%;
 }
